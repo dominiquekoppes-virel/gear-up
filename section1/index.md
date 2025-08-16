@@ -1,0 +1,84 @@
+---
+title: "Section 1: Find Your Path"
+nav_order: 2
+has_children: true
+permalink: /section1/
+---
+
+# Find Your Path
+
+## Step 1: Pick Your Vibe
+
+**What's your energy for life after high school?**
+
+**[U] University Life**  
+*4-year degree, campus experience, probably some debt*  
+→ [Go to University Guide](university/)
+
+**[T] Community College → Transfer**  
+*Smart money move, then transfer to university*  
+→ [Go to Transfer Guide](../section2/transfer/)
+
+**[C] Community College (Associate/Certificate)**  
+*2 years max, specific skills, less debt*  
+→ [Go to Community College Guide](community-college/)
+
+**[TR] Trade/Technical School**  
+*Learn something hands-on, get paid faster*  
+→ [Go to Trade School Guide](trade-school/)
+
+**[W] Work/Apprenticeship**  
+*Start earning now, learn on the job*  
+→ [Go to Workforce Guide](workforce/)
+
+**[M] Military**  
+*Serve, travel, get training + college money*  
+→ [Go to Military Guide](military/)
+
+**[?] Still Figuring It Out**  
+*That's totally fine - let's explore*  
+→ [Go to Decision-Making Guide](../section8/)
+
+---
+
+## Step 2: Get Your Symbols
+
+**Each path has its own symbol throughout this guide:**
+
+| Symbol | Path | What It Means |
+|--------|------|---------------|
+| [U] | University | Traditional 4-year college route |
+| [T] | Transfer | Community college → university |
+| [C] | Associate/Certificate | 2-year programs |
+| [TR] | Trade/Tech | Hands-on career training |
+| [W] | Work/Apprentice | Jump into workforce |
+| [M] | Military | Armed forces |
+
+**Look for your symbol on every page!**
+
+---
+
+## Step 3: Your Plan, Your Timeline
+
+**Not everyone moves at the same speed, and that's okay.**
+
+- **Early Bird** - You've got this figured out and you're ahead of deadlines  
+- **Right on Time** - Following the recommended timeline  
+- **Catching Up** - Started late but making moves  
+- **Crisis Mode** - It's spring and you're just starting (we've all been there)
+
+**Whatever your situation, there's still time to make things happen.**
+
+---
+
+## Quick Reality Check
+
+**Before you dive in:**
+
+- **You don't have to stick with your first choice forever**
+- **Most people change careers multiple times**
+- **There's no "wrong" path, just different ones**
+- **Your timeline doesn't have to match your friends'**
+- **It's okay to be nervous about this stuff**
+
+**Ready? Pick your path above and let's make a plan that actually works for you.**
