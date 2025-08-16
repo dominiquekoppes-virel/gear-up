@@ -1,0 +1,19 @@
+title: "GEAR UP RL"
+description: "Let's get to planning."
+baseurl: ""
+url: "https://yourusername.github.io/gear-up-red-lake"
+
+# Theme
+remote_theme: just-the-docs/just-the-docs
+
+# Navigation
+nav_sort: case_insensitive
+
+# Search
+search_enabled: true
+
+# Footer
+footer_content: "RL GEAR UP Program"
+
+# Color scheme
+color_scheme: blue
