@@ -23,7 +23,7 @@ nav_sort: case_insensitive
 footer_content: "Let's get to planning."
 
 # Color scheme options: nil, blue, dark, light
-color_scheme: blue
+# color_scheme: blue
 
 # Enable copy button on code blocks
 enable_copy_code_button: true
