@@ -1,61 +1,123 @@
-// GEAR UP CSS - Red Lake High School Colors (Black, Red, White)
-// Modern, engaging design that honors school colors
+// GEAR UP Red Lake High School - Modern Dark Theme
+// Clean, professional design with Red Lake school colors (Black, Red, White)
 
-// Core color variables - Red Lake school colors
-$body-background-color: #0a0a0a;
-$sidebar-color: #1a1a1a;
+// ============================================================================
+// COLOR VARIABLES - Red Lake School Colors
+// ============================================================================
+$red-primary: #dc2626;
+$red-light: #ef4444;
+$red-lighter: #fca5a5;
+$red-dark: #b91c1c;
+
+$bg-primary: #0a0a0a;
+$bg-secondary: #1a1a1a;
+$bg-tertiary: #2a2a2a;
+
+$text-primary: #ffffff;
+$text-secondary: #f1f5f9;
+$text-muted: #a3a3a3;
+
 $border-color: #333333;
-$link-color: #ef4444;
-$btn-primary-color: #dc2626;
+$border-light: rgba(255, 255, 255, 0.1);
 
-// Dark background with subtle red accents
+// ============================================================================
+// BASE STYLES
+// ============================================================================
 body {
-  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%) !important;
+  background: linear-gradient(135deg, $bg-primary 0%, $bg-secondary 100%) !important;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif !important;
-  color: #f5f5f5 !important;
+  color: $text-secondary !important;
   min-height: 100vh !important;
 }
 
-// Main content area - dark with red accent glow
+// ============================================================================
+// LAYOUT - MAIN CONTENT
+// ============================================================================
 .main-content-wrap {
-  background: rgba(26, 26, 26, 0.95) !important;
+  background: rgba($bg-secondary, 0.95) !important;
   margin: 1.5rem !important;
   border-radius: 16px !important;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(239, 68, 68, 0.1) !important;
-  border: 1px solid rgba(239, 68, 68, 0.2) !important;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba($red-light, 0.1) !important;
+  border: 1px solid rgba($red-light, 0.2) !important;
   backdrop-filter: blur(10px) !important;
 }
 
 .main-content {
   padding: 3rem !important;
-  color: #f5f5f5 !important;
+  color: $text-secondary !important;
+  
+  p {
+    margin-bottom: 1.25rem !important;
+    line-height: 1.7 !important;
+    color: $text-secondary !important;
+    font-size: 1rem !important;
+  }
+  
+  ul li {
+    margin-bottom: 0.75rem !important;
+    color: $text-secondary !important;
+    line-height: 1.6 !important;
+  }
+  
+  strong {
+    color: $text-primary !important;
+    font-weight: 600 !important;
+  }
+  
+  a:not(.btn) {
+    color: $red-lighter !important;
+    text-decoration: underline !important;
+    text-decoration-color: rgba($red-lighter, 0.4) !important;
+    text-underline-offset: 2px !important;
+    transition: all 0.3s ease !important;
+    
+    &:hover {
+      color: $red-light !important;
+      text-shadow: 0 0 8px rgba($red-light, 0.6) !important;
+    }
+  }
 }
 
-// Header with Red Lake colors - black to red gradient
+// ============================================================================
+// HEADER
+// ============================================================================
 .site-header {
-  background: linear-gradient(135deg, #000000 0%, #dc2626 50%, #ef4444 100%) !important;
+  background: linear-gradient(135deg, #000000 0%, $red-primary 50%, $red-light 100%) !important;
   padding: 1.5rem 0 !important;
-  border-bottom: 2px solid rgba(239, 68, 68, 0.3) !important;
-  box-shadow: 0 4px 20px rgba(220, 38, 38, 0.3) !important;
+  border-bottom: 2px solid rgba($red-light, 0.3) !important;
+  box-shadow: 0 4px 20px rgba($red-primary, 0.3) !important;
+  position: relative !important;
+  
+  &::before {
+    content: "" !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    height: 2px !important;
+    background: linear-gradient(90deg, $red-light, $text-primary, $red-light) !important;
+  }
 }
 
 .site-title {
-  color: white !important;
+  color: $text-primary !important;
   font-weight: 700 !important;
   font-size: 1.75rem !important;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) !important;
   letter-spacing: -0.025em !important;
-}
-
-.site-title:hover {
-  color: #fecaca !important;
   transition: all 0.3s ease !important;
+  
+  &:hover {
+    color: #fecaca !important;
+  }
 }
 
-// Dark sidebar with red accents
+// ============================================================================
+// NAVIGATION
+// ============================================================================
 .navigation {
-  background: rgba(10, 10, 10, 0.9) !important;
-  border-right: 1px solid rgba(51, 51, 51, 0.5) !important;
+  background: rgba($bg-primary, 0.9) !important;
+  border-right: 1px solid rgba($border-color, 0.5) !important;
   padding: 1rem 0 !important;
   backdrop-filter: blur(10px) !important;
 }
@@ -66,31 +128,30 @@ body {
   padding: 12px 20px !important;
   transition: all 0.3s ease !important;
   font-weight: 500 !important;
-  color: #a3a3a3 !important;
+  color: $text-muted !important;
   border: 1px solid transparent !important;
+  
+  &:hover {
+    background: rgba($red-light, 0.15) !important;
+    color: #ff6b6b !important;
+    transform: translateX(6px) !important;
+    border: 1px solid rgba($red-light, 0.4) !important;
+    box-shadow: 0 4px 16px rgba($red-light, 0.3) !important;
+  }
+  
+  &[aria-current="page"] {
+    background: linear-gradient(135deg, rgba($red-light, 0.15), rgba($red-primary, 0.1)) !important;
+    color: $red-light !important;
+    font-weight: 600 !important;
+    border-left: 3px solid $red-light !important;
+    border: 1px solid rgba($red-light, 0.3) !important;
+    box-shadow: 0 4px 12px rgba($red-light, 0.3) !important;
+  }
 }
 
-// JACKED UP navigation hovers - more dramatic
-.navigation-list-item > a:hover {
-  background: rgba(239, 68, 68, 0.15) !important;
-  color: #ff6b6b !important;
-  transform: translateX(8px) scale(1.02) !important; // More movement and scale
-  border: 1px solid rgba(239, 68, 68, 0.4) !important;
-  box-shadow: 0 6px 20px rgba(239, 68, 68, 0.3) !important;
-  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important; // Bouncy
-}
-
-// Current page with red accent
-.navigation-list-item > a[aria-current="page"] {
-  background: linear-gradient(135deg, rgba(239, 68, 68, 0.15), rgba(220, 38, 38, 0.1)) !important;
-  color: #ef4444 !important;
-  font-weight: 600 !important;
-  border-left: 3px solid #ef4444 !important;
-  border: 1px solid rgba(239, 68, 68, 0.3) !important;
-  box-shadow: 0 4px 12px rgba(239, 68, 68, 0.3) !important;
-}
-
-// Red buttons that pop
+// ============================================================================
+// BUTTONS
+// ============================================================================
 .btn {
   border-radius: 12px !important;
   font-weight: 600 !important;
@@ -102,39 +163,35 @@ body {
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, #dc2626, #ef4444) !important;
-  color: white !important;
+  background: linear-gradient(135deg, $red-primary, $red-light) !important;
+  color: $text-primary !important;
   border: none !important;
-  box-shadow: 0 4px 16px rgba(220, 38, 38, 0.4) !important;
+  box-shadow: 0 4px 16px rgba($red-primary, 0.4) !important;
+  
+  &:hover {
+    background: linear-gradient(135deg, $red-dark, $red-primary) !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 8px 24px rgba($red-primary, 0.6) !important;
+    color: $text-primary !important;
+  }
 }
 
-// SUPER INTERACTIVE buttons - dramatic transforms
-.btn-primary:hover {
-  background: linear-gradient(135deg, #b91c1c, #dc2626) !important;
-  transform: translateY(-4px) scale(1.05) !important; // More dramatic lift and scale
-  box-shadow: 0 12px 32px rgba(220, 38, 38, 0.8) !important; // Bigger shadow
-  color: white !important;
-  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important; // Bouncy
-}
-
-// Headers with Red Lake school spirit
+// ============================================================================
+// TYPOGRAPHY
+// ============================================================================
 h1 {
-  color: #ffffff !important;
-  border-bottom: 3px solid #ef4444 !important;
+  color: $text-primary !important;
+  border-bottom: 3px solid $red-light !important;
   padding-bottom: 12px !important;
   margin-top: 2rem !important;
   margin-bottom: 1.5rem !important;
   font-weight: 700 !important;
   font-size: 2.25rem !important;
-  background: linear-gradient(135deg, #ffffff, #ef4444) !important;
-  -webkit-background-clip: text !important;
-  -webkit-text-fill-color: transparent !important;
-  background-clip: text !important;
 }
 
 h2 {
-  color: #f5f5f5 !important;
-  border-left: 4px solid #ef4444 !important;
+  color: $text-secondary !important;
+  border-left: 4px solid $red-light !important;
   padding-left: 20px !important;
   margin-top: 2rem !important;
   margin-bottom: 1rem !important;
@@ -149,7 +206,156 @@ h3 {
   font-size: 1.25rem !important;
 }
 
-// Make label cards clickable buttons - MUCH better UX
+// ============================================================================
+// PATHWAY CARDS - Home Page Hero Section
+// ============================================================================
+.pathway-grid {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important;
+  gap: 1.5rem !important;
+  margin: 2rem 0 !important;
+}
+
+.pathway-card {
+  background: linear-gradient(135deg, rgba($bg-secondary, 0.9), rgba($bg-tertiary, 0.7)) !important;
+  border: 2px solid rgba($red-light, 0.3) !important;
+  border-radius: 16px !important;
+  padding: 2rem !important;
+  text-align: center !important;
+  transition: all 0.3s ease !important;
+  backdrop-filter: blur(10px) !important;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3) !important;
+  
+  &:hover {
+    transform: translateY(-6px) !important;
+    border-color: $red-light !important;
+    box-shadow: 0 16px 32px rgba($red-light, 0.4) !important;
+    background: linear-gradient(135deg, rgba($red-light, 0.1), rgba($bg-secondary, 0.95)) !important;
+  }
+  
+  .pathway-icon {
+    font-size: 3rem !important;
+    display: block !important;
+    margin-bottom: 1rem !important;
+    filter: drop-shadow(0 4px 8px rgba($red-light, 0.3)) !important;
+  }
+  
+  h4 {
+    color: $text-primary !important;
+    font-size: 1.5rem !important;
+    font-weight: 700 !important;
+    margin-bottom: 1rem !important;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) !important;
+    
+    strong {
+      color: $red-light !important;
+      font-size: 1.2em !important;
+    }
+  }
+  
+  p {
+    color: $text-secondary !important;
+    font-size: 1rem !important;
+    line-height: 1.6 !important;
+    margin-bottom: 1rem !important;
+    
+    em {
+      color: $red-lighter !important;
+      font-style: normal !important;
+      font-weight: 600 !important;
+    }
+  }
+  
+  .btn {
+    margin-top: 1rem !important;
+    width: 100% !important;
+    font-weight: 600 !important;
+  }
+}
+
+// ============================================================================
+// SYMBOL GRID - For Section 1 Path Explanations
+// ============================================================================
+.symbol-grid {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) !important;
+  gap: 1rem !important;
+  margin: 1.5rem 0 !important;
+}
+
+.symbol-card {
+  background: rgba($text-primary, 0.05) !important;
+  border: 1px solid $border-light !important;
+  border-radius: 8px !important;
+  padding: 1rem !important;
+  text-align: center !important;
+  transition: all 0.3s ease !important;
+  
+  &:hover {
+    background: rgba($text-primary, 0.1) !important;
+    transform: translateY(-2px) !important;
+    border-color: $red-primary !important;
+  }
+  
+  h4 {
+    margin: 0.5rem 0 !important;
+    color: $text-primary !important;
+    font-size: 1rem !important;
+  }
+  
+  p {
+    margin: 0 !important;
+    color: #ccc !important;
+    font-size: 0.875rem !important;
+  }
+}
+
+.symbol-badge {
+  display: inline-block !important;
+  padding: 0.25rem 0.5rem !important;
+  border-radius: 4px !important;
+  font-weight: bold !important;
+  font-size: 0.875rem !important;
+  margin-bottom: 0.5rem !important;
+  
+  &.university { background: #3b82f6; color: white; }
+  &.transfer { background: #10b981; color: white; }
+  &.community { background: #f59e0b; color: white; }
+  &.trade { background: #8b5cf6; color: white; }
+  &.workforce { background: #06b6d4; color: white; }
+  &.military { background: $red-primary; color: white; }
+}
+
+// ============================================================================
+// QUICK START CARD
+// ============================================================================
+.quick-start-card {
+  background: linear-gradient(135deg, rgba($red-light, 0.15), rgba($bg-secondary, 0.9)) !important;
+  border: 2px solid rgba($red-light, 0.4) !important;
+  border-radius: 16px !important;
+  padding: 2.5rem !important;
+  margin: 2rem 0 !important;
+  text-align: center !important;
+  backdrop-filter: blur(10px) !important;
+  box-shadow: 0 8px 32px rgba($red-light, 0.2) !important;
+  
+  h3 {
+    color: $text-primary !important;
+    font-size: 1.75rem !important;
+    margin-bottom: 1rem !important;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) !important;
+  }
+  
+  p {
+    color: $text-secondary !important;
+    font-size: 1.1rem !important;
+    margin-bottom: 1.5rem !important;
+  }
+}
+
+// ============================================================================
+// CLICKABLE LABELS - For Section Navigation
+// ============================================================================
 .label {
   border-radius: 12px !important;
   padding: 20px 24px !important;
@@ -159,10 +365,21 @@ h3 {
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2) !important;
   backdrop-filter: blur(10px) !important;
   cursor: pointer !important;
-  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
+  transition: all 0.3s ease !important;
   display: block !important;
   text-decoration: none !important;
   color: inherit !important;
+  
+  &:hover {
+    transform: translateY(-3px) !important;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3) !important;
+  }
+  
+  h3, h4 {
+    margin-bottom: 0.5rem !important;
+    font-size: 1.5rem !important;
+    font-weight: 700 !important;
+  }
 }
 
 // Make labels work as clickable links
@@ -172,68 +389,45 @@ a.label, .label a {
   color: inherit !important;
 }
 
-.label:hover {
-  transform: translateY(-4px) scale(1.02) !important;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3) !important;
-}
-
-// Specific hover effects for each color
-.label-yellow:hover {
-  box-shadow: 0 8px 24px rgba(251, 191, 36, 0.4) !important;
-  border-left-color: #fde047 !important;
-  background: rgba(251, 191, 36, 0.25) !important;
-}
-
-.label-blue:hover {
-  box-shadow: 0 8px 24px rgba(239, 68, 68, 0.4) !important;
-  border-left-color: #ff6b6b !important;
-  background: rgba(239, 68, 68, 0.25) !important;
-}
-
-.label-red:hover {
-  box-shadow: 0 8px 24px rgba(239, 68, 68, 0.5) !important;
-  border-left-color: #ff6b6b !important;
-  background: rgba(239, 68, 68, 0.3) !important;
-}
-
-.label-green:hover {
-  box-shadow: 0 8px 24px rgba(34, 197, 94, 0.4) !important;
-  border-left-color: #4ade80 !important;
-  background: rgba(34, 197, 94, 0.25) !important;
-}
-
-// Style the pathway option titles inside labels
-.label h3, .label h4 {
-  margin-bottom: 0.5rem !important;
-  font-size: 1.5rem !important;
-  font-weight: 700 !important;
-}
-
-// Hide the old "Go to X Guide" links since the whole card is clickable now
-.label + p a {
-  display: none !important;
-}
-
+// Label color variants
 .label-yellow {
   background: rgba(251, 191, 36, 0.15) !important;
   border-left-color: #fbbf24 !important;
   color: #fde047 !important;
   border: 1px solid rgba(251, 191, 36, 0.2) !important;
+  
+  &:hover {
+    box-shadow: 0 8px 24px rgba(251, 191, 36, 0.4) !important;
+    border-left-color: #fde047 !important;
+    background: rgba(251, 191, 36, 0.25) !important;
+  }
 }
 
 .label-blue {
-  background: rgba(239, 68, 68, 0.15) !important;
-  border-left-color: #ef4444 !important;
-  color: #fca5a5 !important;
-  border: 1px solid rgba(239, 68, 68, 0.2) !important;
+  background: rgba($red-light, 0.15) !important;
+  border-left-color: $red-light !important;
+  color: $red-lighter !important;
+  border: 1px solid rgba($red-light, 0.2) !important;
+  
+  &:hover {
+    box-shadow: 0 8px 24px rgba($red-light, 0.4) !important;
+    border-left-color: #ff6b6b !important;
+    background: rgba($red-light, 0.25) !important;
+  }
 }
 
 .label-red {
-  background: rgba(239, 68, 68, 0.2) !important;
-  border-left-color: #ef4444 !important;
+  background: rgba($red-light, 0.2) !important;
+  border-left-color: $red-light !important;
   color: #fecaca !important;
-  border: 1px solid rgba(239, 68, 68, 0.3) !important;
-  box-shadow: 0 4px 16px rgba(239, 68, 68, 0.1) !important;
+  border: 1px solid rgba($red-light, 0.3) !important;
+  box-shadow: 0 4px 16px rgba($red-light, 0.1) !important;
+  
+  &:hover {
+    box-shadow: 0 8px 24px rgba($red-light, 0.5) !important;
+    border-left-color: #ff6b6b !important;
+    background: rgba($red-light, 0.3) !important;
+  }
 }
 
 .label-green {
@@ -241,294 +435,25 @@ a.label, .label a {
   border-left-color: #22c55e !important;
   color: #86efac !important;
   border: 1px solid rgba(34, 197, 94, 0.2) !important;
-}
-
-// Tables with Red Lake colors
-table {
-  border-collapse: separate !important;
-  border-spacing: 0 !important;
-  border-radius: 12px !important;
-  overflow: hidden !important;
-  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.4) !important;
-  margin: 24px 0 !important;
-  width: 100% !important;
-  border: 1px solid rgba(51, 51, 51, 0.5) !important;
-  background: rgba(26, 26, 26, 0.9) !important;
-}
-
-table th {
-  background: linear-gradient(135deg, #000000, #1a1a1a) !important;
-  color: #ffffff !important;
-  padding: 20px !important;
-  font-weight: 600 !important;
-  border-bottom: 2px solid rgba(239, 68, 68, 0.4) !important;
-  font-size: 0.9rem !important;
-  text-transform: uppercase !important;
-  letter-spacing: 0.05em !important;
-}
-
-table td {
-  padding: 20px !important;
-  border-bottom: 1px solid rgba(51, 51, 51, 0.3) !important;
-  color: #e5e5e5 !important;
-  font-size: 0.95rem !important;
-}
-
-// MEGA INTERACTIVE table rows - pulsing hover
-table tr:hover td {
-  background: rgba(239, 68, 68, 0.12) !important;
-  color: #ffffff !important;
-  transform: scale(1.01) !important;
-  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
-  box-shadow: 0 4px 16px rgba(239, 68, 68, 0.2) !important;
-}
-
-// Red checkboxes
-input[type="checkbox"] {
-  transform: scale(1.3) !important;
-  margin-right: 12px !important;
-  accent-color: #ef4444 !important;
-  cursor: pointer !important;
-  filter: brightness(1.2) !important;
-}
-
-// JACKED UP INTERACTIVITY - Red link hovers with dramatic effects
-a:not(.btn):hover {
-  color: #ff6b6b !important;
-  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important; // Bouncy animation
-  text-shadow: 0 0 12px rgba(239, 68, 68, 0.8), 0 0 24px rgba(239, 68, 68, 0.4) !important;
-  transform: scale(1.05) !important;
-}
-
-// Search with dark/red theme
-.search-input {
-  border-radius: 12px !important;
-  border: 1px solid rgba(51, 51, 51, 0.5) !important;
-  padding: 12px 20px !important;
-  transition: all 0.3s ease !important;
-  background: rgba(10, 10, 10, 0.8) !important;
-  color: #f5f5f5 !important;
-}
-
-.search-input:focus {
-  border-color: #ef4444 !important;
-  box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.2) !important;
-  outline: none !important;
-  background: rgba(10, 10, 10, 0.95) !important;
-}
-
-.search-input::placeholder {
-  color: #737373 !important;
-}
-
-// Header nav with school colors
-.aux-nav a {
-  color: rgba(255, 255, 255, 0.9) !important;
-  text-decoration: none !important;
-  padding: 8px 16px !important;
-  border-radius: 8px !important;
-  background: rgba(255, 255, 255, 0.1) !important;
-  transition: all 0.3s ease !important;
-  margin-left: 12px !important;
-  font-size: 0.9rem !important;
-  font-weight: 500 !important;
-  border: 1px solid rgba(255, 255, 255, 0.2) !important;
-}
-
-// EXTREME header nav interactivity
-.aux-nav a:hover {
-  background: rgba(239, 68, 68, 0.3) !important;
-  transform: translateY(-3px) scale(1.1) !important; // Bigger lift and scale
-  box-shadow: 0 8px 20px rgba(239, 68, 68, 0.4) !important;
-  border-color: rgba(239, 68, 68, 0.5) !important;
-  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
-}
-
-// Better text readability on dark - MUCH brighter
-.main-content p {
-  margin-bottom: 1.25rem !important;
-  line-height: 1.7 !important;
-  color: #f1f5f9 !important; // Much brighter white-ish
-  font-size: 1rem !important;
-}
-
-.main-content ul li {
-  margin-bottom: 0.75rem !important;
-  color: #f1f5f9 !important; // Much brighter white-ish
-  line-height: 1.6 !important;
-}
-
-.main-content strong {
-  color: #ffffff !important;
-  font-weight: 600 !important;
-}
-
-// Red links within content
-.main-content a:not(.btn) {
-  color: #fca5a5 !important;
-  text-decoration: underline !important;
-  text-decoration-color: rgba(252, 165, 165, 0.4) !important;
-  text-underline-offset: 2px !important;
-}
-
-.main-content a:not(.btn):hover {
-  color: #ef4444 !important;
-}
-
-// Mobile improvements
-@media (max-width: 768px) {
-  .main-content-wrap {
-    margin: 1rem !important;
-    border-radius: 12px !important;
-  }
   
-  .main-content {
-    padding: 2rem !important;
-  }
-  
-  .site-title {
-    font-size: 1.5rem !important;
-  }
-  
-  table {
-    font-size: 0.85rem !important;
-  }
-  
-  table th, table td {
-    padding: 12px !important;
-  }
-  
-  h1 {
-    font-size: 1.75rem !important;
-  }
-  
-  .navigation-list-item > a {
-    margin: 2px 12px !important;
-    padding: 10px 16px !important;
+  &:hover {
+    box-shadow: 0 8px 24px rgba(34, 197, 94, 0.4) !important;
+    border-left-color: #4ade80 !important;
+    background: rgba(34, 197, 94, 0.25) !important;
   }
 }
 
-// Smooth scrolling
-html {
-  scroll-behavior: smooth !important;
-}
-
-// Red selection highlighting
-::selection {
-  background: rgba(239, 68, 68, 0.3) !important;
-  color: #ffffff !important;
-}
-
-// Special Red Lake school spirit elements
-.site-header::before {
-  content: "" !important;
-  position: absolute !important;
-  top: 0 !important;
-  left: 0 !important;
-  right: 0 !important;
-  height: 2px !important;
-  background: linear-gradient(90deg, #ef4444, #ffffff, #ef4444) !important;
-}
-
-// PATHWAY CARDS - Make them actually readable and engaging
-.pathway-grid {
-  display: grid !important;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important;
-  gap: 1.5rem !important;
-  margin: 2rem 0 !important;
-}
-
-.pathway-card {
-  background: linear-gradient(135deg, rgba(26, 26, 26, 0.9), rgba(51, 51, 51, 0.7)) !important;
-  border: 2px solid rgba(239, 68, 68, 0.3) !important;
-  border-radius: 16px !important;
-  padding: 2rem !important;
-  text-align: center !important;
-  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
-  backdrop-filter: blur(10px) !important;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3) !important;
-}
-
-.pathway-card:hover {
-  transform: translateY(-8px) scale(1.03) !important;
-  border-color: #ef4444 !important;
-  box-shadow: 0 16px 40px rgba(239, 68, 68, 0.4) !important;
-  background: linear-gradient(135deg, rgba(239, 68, 68, 0.1), rgba(26, 26, 26, 0.95)) !important;
-}
-
-.pathway-card .pathway-icon {
-  font-size: 3rem !important;
-  display: block !important;
-  margin-bottom: 1rem !important;
-  filter: drop-shadow(0 4px 8px rgba(239, 68, 68, 0.3)) !important;
-}
-
-.pathway-card h4 {
-  color: #ffffff !important;
-  font-size: 1.5rem !important;
-  font-weight: 700 !important;
-  margin-bottom: 1rem !important;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) !important;
-}
-
-.pathway-card h4 strong {
-  color: #ef4444 !important;
-  font-size: 1.2em !important;
-}
-
-.pathway-card p {
-  color: #f1f5f9 !important;
-  font-size: 1rem !important;
-  line-height: 1.6 !important;
-  margin-bottom: 1rem !important;
-}
-
-.pathway-card p em {
-  color: #fca5a5 !important;
-  font-style: normal !important;
-  font-weight: 600 !important;
-}
-
-.pathway-card .btn {
-  margin-top: 1rem !important;
-  width: 100% !important;
-  font-weight: 600 !important;
-}
-
-// Quick start card styling
-.quick-start-card {
-  background: linear-gradient(135deg, rgba(239, 68, 68, 0.15), rgba(26, 26, 26, 0.9)) !important;
-  border: 2px solid rgba(239, 68, 68, 0.4) !important;
-  border-radius: 16px !important;
-  padding: 2.5rem !important;
-  margin: 2rem 0 !important;
-  text-align: center !important;
-  backdrop-filter: blur(10px) !important;
-  box-shadow: 0 8px 32px rgba(239, 68, 68, 0.2) !important;
-}
-
-.quick-start-card h3 {
-  color: #ffffff !important;
-  font-size: 1.75rem !important;
-  margin-bottom: 1rem !important;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) !important;
-}
-
-.quick-start-card p {
-  color: #f1f5f9 !important;
-  font-size: 1.1rem !important;
-  margin-bottom: 1.5rem !important;
-}
-
-// Better highlight boxes
+// ============================================================================
+// CALLOUT BOXES
+// ============================================================================
 .highlight {
-  background: rgba(239, 68, 68, 0.15) !important;
-  border: 1px solid rgba(239, 68, 68, 0.3) !important;
+  background: rgba($red-light, 0.15) !important;
+  border: 1px solid rgba($red-light, 0.3) !important;
   border-radius: 12px !important;
   padding: 1.5rem !important;
   margin: 1.5rem 0 !important;
-  color: #f1f5f9 !important;
-  border-left: 4px solid #ef4444 !important;
+  color: $text-secondary !important;
+  border-left: 4px solid $red-light !important;
 }
 
 .important {
@@ -561,40 +486,163 @@ html {
   border-left: 4px solid #06b6d4 !important;
 }
 
-// Add some sick animated elements for maximum engagement
-@keyframes redGlow {
-  0%, 100% { box-shadow: 0 0 20px rgba(239, 68, 68, 0.3); }
-  50% { box-shadow: 0 0 40px rgba(239, 68, 68, 0.6), 0 0 60px rgba(239, 68, 68, 0.2); }
+.warning {
+  background: rgba(251, 146, 60, 0.15) !important;
+  border: 1px solid rgba(251, 146, 60, 0.3) !important;
+  border-radius: 12px !important;
+  padding: 1.5rem !important;
+  margin: 1.5rem 0 !important;
+  color: #fdba74 !important;
+  border-left: 4px solid #f97316 !important;
 }
 
-@keyframes float {
-  0%, 100% { transform: translateY(0px); }
-  50% { transform: translateY(-5px); }
+// ============================================================================
+// TABLES
+// ============================================================================
+table {
+  border-collapse: separate !important;
+  border-spacing: 0 !important;
+  border-radius: 12px !important;
+  overflow: hidden !important;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.4) !important;
+  margin: 24px 0 !important;
+  width: 100% !important;
+  border: 1px solid rgba($border-color, 0.5) !important;
+  background: rgba($bg-secondary, 0.9) !important;
+  
+  th {
+    background: linear-gradient(135deg, #000000, $bg-secondary) !important;
+    color: $text-primary !important;
+    padding: 20px !important;
+    font-weight: 600 !important;
+    border-bottom: 2px solid rgba($red-light, 0.4) !important;
+    font-size: 0.9rem !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.05em !important;
+  }
+  
+  td {
+    padding: 20px !important;
+    border-bottom: 1px solid rgba($border-color, 0.3) !important;
+    color: #e5e5e5 !important;
+    font-size: 0.95rem !important;
+  }
+  
+  tr:hover td {
+    background: rgba($red-light, 0.12) !important;
+    color: $text-primary !important;
+  }
 }
 
-// Add floating animation to current page nav
-.navigation-list-item > a[aria-current="page"] {
-  background: linear-gradient(135deg, rgba(239, 68, 68, 0.15), rgba(220, 38, 38, 0.1)) !important;
-  color: #ef4444 !important;
-  font-weight: 600 !important;
-  border-left: 3px solid #ef4444 !important;
-  border: 1px solid rgba(239, 68, 68, 0.3) !important;
-  box-shadow: 0 4px 12px rgba(239, 68, 68, 0.3) !important;
-  animation: redGlow 3s ease-in-out infinite !important;
+// ============================================================================
+// FORM ELEMENTS
+// ============================================================================
+input[type="checkbox"] {
+  transform: scale(1.3) !important;
+  margin-right: 12px !important;
+  accent-color: $red-light !important;
+  cursor: pointer !important;
 }
 
-// Add floating to buttons for extra drama
-.btn-primary {
-  background: linear-gradient(135deg, #dc2626, #ef4444) !important;
-  color: white !important;
-  border: none !important;
-  box-shadow: 0 4px 16px rgba(220, 38, 38, 0.4) !important;
-  animation: float 4s ease-in-out infinite !important;
+.search-input {
+  border-radius: 12px !important;
+  border: 1px solid rgba($border-color, 0.5) !important;
+  padding: 12px 20px !important;
+  transition: all 0.3s ease !important;
+  background: rgba($bg-primary, 0.8) !important;
+  color: $text-secondary !important;
+  
+  &:focus {
+    border-color: $red-light !important;
+    box-shadow: 0 0 0 3px rgba($red-light, 0.2) !important;
+    outline: none !important;
+    background: rgba($bg-primary, 0.95) !important;
+  }
+  
+  &::placeholder {
+    color: #737373 !important;
+  }
 }
 
-// Pulsing focus effects
+// ============================================================================
+// HEADER NAVIGATION
+// ============================================================================
+.aux-nav a {
+  color: rgba(255, 255, 255, 0.9) !important;
+  text-decoration: none !important;
+  padding: 8px 16px !important;
+  border-radius: 8px !important;
+  background: rgba(255, 255, 255, 0.1) !important;
+  transition: all 0.3s ease !important;
+  margin-left: 12px !important;
+  font-size: 0.9rem !important;
+  font-weight: 500 !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  
+  &:hover {
+    background: rgba($red-light, 0.3) !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 6px 16px rgba($red-light, 0.4) !important;
+    border-color: rgba($red-light, 0.5) !important;
+  }
+}
+
+// ============================================================================
+// RESPONSIVE DESIGN
+// ============================================================================
+@media (max-width: 768px) {
+  .main-content-wrap {
+    margin: 1rem !important;
+    border-radius: 12px !important;
+  }
+  
+  .main-content {
+    padding: 2rem !important;
+  }
+  
+  .site-title {
+    font-size: 1.5rem !important;
+  }
+  
+  .pathway-grid {
+    grid-template-columns: 1fr !important;
+  }
+  
+  .symbol-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)) !important;
+  }
+  
+  table {
+    font-size: 0.85rem !important;
+    
+    th, td {
+      padding: 12px !important;
+    }
+  }
+  
+  h1 {
+    font-size: 1.75rem !important;
+  }
+  
+  .navigation-list-item > a {
+    margin: 2px 12px !important;
+    padding: 10px 16px !important;
+  }
+}
+
+// ============================================================================
+// ACCESSIBILITY & POLISH
+// ============================================================================
+html {
+  scroll-behavior: smooth !important;
+}
+
+::selection {
+  background: rgba($red-light, 0.3) !important;
+  color: $text-primary !important;
+}
+
 button:focus, input:focus, a:focus {
   outline: none !important;
-  box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.7) !important;
-  animation: redGlow 2s ease-in-out infinite !important;
+  box-shadow: 0 0 0 3px rgba($red-light, 0.5) !important;
 }
