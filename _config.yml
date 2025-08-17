@@ -1,5 +1,5 @@
-title: "GEAR UP Planning RL"
-description: "Let's try some planning"
+title: "GEAR UP Red Lake Planning Guide"
+description: "Your complete guide to life after high school - designed for real students, real situations"
 baseurl: "/gear-up"
 url: "https://dominiquekoppes-virel.github.io"
 
@@ -21,33 +21,64 @@ search:
 nav_sort: case_insensitive
 
 # Footer
-footer_content: "Let's get to planning."
+footer_content: "Created for Red Lake High School seniors. Questions? Ask your GEAR UP coordinator."
 
-# Color scheme options: nil, blue, dark, light
-# color_scheme: blue
+# Color scheme - much more engaging than default
+color_scheme: custom
 
 # Enable copy button on code blocks
 enable_copy_code_button: true
 
-# Callouts (for important boxes)
-callouts_level: quiet
+# Enhanced callouts for student-friendly design
+callouts_level: loud
 callouts:
   highlight:
+    title: "💡 Key Point"
     color: yellow
   important:
-    title: Important
-    color: blue
+    title: "⚠️ Important"
+    color: red
   new:
-    title: New
+    title: "🔔 New Info"
     color: green
   note:
-    title: Note
-    color: purple
+    title: "📝 Note"
+    color: blue
   warning:
-    title: Warning
+    title: "🚨 Warning"
     color: red
+  money:
+    title: "💰 Money Matters"
+    color: green
+  deadline:
+    title: "⏰ Deadline Alert"
+    color: red
+  tip:
+    title: "🔥 Pro Tip"
+    color: purple
 
 # Plugins
 plugins:
   - jekyll-default-layout
   - jekyll-seo-tag
+
+# Custom settings for better student experience
+heading_anchors: true
+aux_links:
+  "Need Help?":
+    - "mailto:your-gear-up-coordinator@email.com"
+  "Print This Page":
+    - "javascript:window.print()"
+
+# Enable table of contents for long pages
+back_to_top: true
+back_to_top_text: "Back to top"
+
+# Make the site more mobile-friendly
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: []
+  blanklines: false
+  profile: false
