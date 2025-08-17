@@ -89,18 +89,18 @@ https://fairtest.org/test-optional-list/
 
 **Should I retake? (Check all that apply):**
 
-□ **My scores are below the average** for my target schools
-□ **I think I could improve** with more preparation
-□ **I haven't taken both tests** to see which I do better on
-□ **I could qualify for more scholarships** with higher scores
-□ **I have time to study** and retake before deadlines
+- [ ] **My scores are below the average** for my target schools
+- [ ] **I think I could improve** with more preparation
+- [ ] **I haven't taken both tests** to see which I do better on
+- [ ] **I could qualify for more scholarships** with higher scores
+- [ ] **I have time to study** and retake before deadlines
 
 **My testing plan:**
 
-□ **Retake ACT on:** ________________
-□ **Retake SAT on:** ________________
-□ **Focus on test-optional schools**
-□ **I'm satisfied with my current scores**
+- [ ] **Retake ACT on:** ________________
+- [ ] **Retake SAT on:** ________________
+- [ ] **Focus on test-optional schools**
+- [ ] **I'm satisfied with my current scores**
 
 **Prep resources I'll use:**
 _________________________________________________
