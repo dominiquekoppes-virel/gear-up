@@ -1,263 +1,349 @@
-// Actually Good Styling for GEAR UP (not a rainbow explosion)
+// GEAR UP CSS - Engaging for Students, Professional for Educators
+// Inspired by modern web apps that students actually want to use
 
-// Required color variables
-$body-background-color: #f8fafc;
-$sidebar-color: #ffffff;
-$border-color: #e2e8f0;
-$link-color: #3b82f6;
-$btn-primary-color: #3b82f6;
+// Core color variables - darker, more engaging palette
+$body-background-color: #0f172a;
+$sidebar-color: #1e293b;
+$border-color: #334155;
+$link-color: #06b6d4;
+$btn-primary-color: #0ea5e9;
 
-// Clean, modern background - not a disco
+// Dark, modern background that feels like apps students use
 body {
-  background: #f1f5f9 !important;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%) !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif !important;
+  color: #e2e8f0 !important;
+  min-height: 100vh !important;
 }
 
-// Clean card design for content
+// Main content area - dark card with subtle glow
 .main-content-wrap {
-  background: white !important;
+  background: rgba(30, 41, 59, 0.95) !important;
   margin: 1.5rem !important;
-  border-radius: 12px !important;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.08) !important;
-  border: 1px solid #e2e8f0 !important;
+  border-radius: 16px !important;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(148, 163, 184, 0.1) !important;
+  border: 1px solid rgba(148, 163, 184, 0.2) !important;
+  backdrop-filter: blur(10px) !important;
 }
 
 .main-content {
-  padding: 2.5rem !important;
+  padding: 3rem !important;
+  color: #e2e8f0 !important;
 }
 
-// Much better header - professional but not boring
+// Header with gradient that pops
 .site-header {
-  background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%) !important;
-  padding: 1.2rem 0 !important;
-  border-bottom: 3px solid #1d4ed8 !important;
+  background: linear-gradient(135deg, #0c4a6e 0%, #0ea5e9 50%, #06b6d4 100%) !important;
+  padding: 1.5rem 0 !important;
+  border-bottom: 2px solid rgba(6, 182, 212, 0.3) !important;
+  box-shadow: 0 4px 20px rgba(14, 165, 233, 0.2) !important;
 }
 
 .site-title {
   color: white !important;
-  font-weight: 600 !important;
-  font-size: 1.5rem !important;
-  text-shadow: none !important;
+  font-weight: 700 !important;
+  font-size: 1.75rem !important;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3) !important;
+  letter-spacing: -0.025em !important;
 }
 
 .site-title:hover {
-  color: #e0f2fe !important;
+  color: #e0f7fa !important;
+  transition: all 0.3s ease !important;
 }
 
-// Clean navigation
+// Dark sidebar navigation
 .navigation {
-  background: white !important;
-  border-right: 1px solid #e2e8f0 !important;
+  background: rgba(15, 23, 42, 0.8) !important;
+  border-right: 1px solid rgba(51, 65, 85, 0.5) !important;
   padding: 1rem 0 !important;
+  backdrop-filter: blur(10px) !important;
 }
 
 .navigation-list-item > a {
-  border-radius: 8px !important;
-  margin: 2px 12px !important;
-  padding: 10px 16px !important;
-  transition: all 0.2s ease !important;
+  border-radius: 12px !important;
+  margin: 3px 16px !important;
+  padding: 12px 20px !important;
+  transition: all 0.3s ease !important;
   font-weight: 500 !important;
-  color: #64748b !important;
+  color: #94a3b8 !important;
+  border: 1px solid transparent !important;
 }
 
 .navigation-list-item > a:hover {
-  background: #f1f5f9 !important;
-  color: #1e40af !important;
-  transform: translateX(2px) !important;
+  background: rgba(6, 182, 212, 0.1) !important;
+  color: #06b6d4 !important;
+  transform: translateX(4px) !important;
+  border: 1px solid rgba(6, 182, 212, 0.2) !important;
+  box-shadow: 0 4px 12px rgba(6, 182, 212, 0.1) !important;
 }
 
-// Current page highlighting
+// Current page with cyan accent
 .navigation-list-item > a[aria-current="page"] {
-  background: #eff6ff !important;
-  color: #1e40af !important;
+  background: linear-gradient(135deg, rgba(6, 182, 212, 0.15), rgba(14, 165, 233, 0.1)) !important;
+  color: #06b6d4 !important;
   font-weight: 600 !important;
-  border-left: 3px solid #3b82f6 !important;
+  border-left: 3px solid #06b6d4 !important;
+  border: 1px solid rgba(6, 182, 212, 0.3) !important;
+  box-shadow: 0 4px 12px rgba(6, 182, 212, 0.2) !important;
 }
 
-// Better buttons - not neon
+// Buttons that feel modern and clickable
 .btn {
-  border-radius: 8px !important;
+  border-radius: 12px !important;
   font-weight: 600 !important;
-  padding: 10px 20px !important;
-  transition: all 0.2s ease !important;
+  padding: 12px 24px !important;
+  transition: all 0.3s ease !important;
   text-decoration: none !important;
+  text-transform: none !important;
+  letter-spacing: 0.025em !important;
 }
 
 .btn-primary {
-  background: #3b82f6 !important;
+  background: linear-gradient(135deg, #0ea5e9, #06b6d4) !important;
   color: white !important;
   border: none !important;
-  box-shadow: 0 2px 8px rgba(59, 130, 246, 0.3) !important;
+  box-shadow: 0 4px 16px rgba(14, 165, 233, 0.4) !important;
 }
 
 .btn-primary:hover {
-  background: #2563eb !important;
-  transform: translateY(-1px) !important;
-  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4) !important;
+  background: linear-gradient(135deg, #0284c7, #0891b2) !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 8px 24px rgba(14, 165, 233, 0.5) !important;
   color: white !important;
 }
 
-// Clean headers
+// Headers with style
 h1 {
-  color: #1e293b !important;
-  border-bottom: 3px solid #3b82f6 !important;
-  padding-bottom: 8px !important;
+  color: #f1f5f9 !important;
+  border-bottom: 3px solid #06b6d4 !important;
+  padding-bottom: 12px !important;
   margin-top: 2rem !important;
   margin-bottom: 1.5rem !important;
   font-weight: 700 !important;
+  font-size: 2.25rem !important;
+  background: linear-gradient(135deg, #f1f5f9, #06b6d4) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
 }
 
 h2 {
-  color: #334155 !important;
+  color: #e2e8f0 !important;
   border-left: 4px solid #06b6d4 !important;
-  padding-left: 16px !important;
+  padding-left: 20px !important;
   margin-top: 2rem !important;
   margin-bottom: 1rem !important;
   font-weight: 600 !important;
+  font-size: 1.5rem !important;
 }
 
 h3 {
-  color: #475569 !important;
+  color: #cbd5e1 !important;
   margin-top: 1.5rem !important;
   font-weight: 600 !important;
+  font-size: 1.25rem !important;
 }
 
-// Clean, readable callouts
+// Callouts that actually stand out
 .label {
-  border-radius: 10px !important;
-  padding: 16px 20px !important;
-  margin: 1.5rem 0 !important;
+  border-radius: 12px !important;
+  padding: 20px 24px !important;
+  margin: 2rem 0 !important;
   border-left: 4px solid !important;
   font-weight: 500 !important;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.05) !important;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2) !important;
+  backdrop-filter: blur(10px) !important;
 }
 
 .label-yellow {
-  background: #fefce8 !important;
-  border-left-color: #eab308 !important;
-  color: #713f12 !important;
+  background: rgba(251, 191, 36, 0.15) !important;
+  border-left-color: #fbbf24 !important;
+  color: #fde047 !important;
+  border: 1px solid rgba(251, 191, 36, 0.2) !important;
 }
 
 .label-blue {
-  background: #eff6ff !important;
-  border-left-color: #3b82f6 !important;
-  color: #1e40af !important;
+  background: rgba(6, 182, 212, 0.15) !important;
+  border-left-color: #06b6d4 !important;
+  color: #67e8f9 !important;
+  border: 1px solid rgba(6, 182, 212, 0.2) !important;
 }
 
 .label-red {
-  background: #fef2f2 !important;
+  background: rgba(239, 68, 68, 0.15) !important;
   border-left-color: #ef4444 !important;
-  color: #991b1b !important;
+  color: #fca5a5 !important;
+  border: 1px solid rgba(239, 68, 68, 0.2) !important;
 }
 
 .label-green {
-  background: #f0fdf4 !important;
+  background: rgba(34, 197, 94, 0.15) !important;
   border-left-color: #22c55e !important;
-  color: #15803d !important;
+  color: #86efac !important;
+  border: 1px solid rgba(34, 197, 94, 0.2) !important;
 }
 
-// Clean tables
+// Dark mode tables that don't suck
 table {
   border-collapse: separate !important;
   border-spacing: 0 !important;
-  border-radius: 10px !important;
+  border-radius: 12px !important;
   overflow: hidden !important;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.08) !important;
-  margin: 20px 0 !important;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.3) !important;
+  margin: 24px 0 !important;
   width: 100% !important;
-  border: 1px solid #e2e8f0 !important;
+  border: 1px solid rgba(51, 65, 85, 0.5) !important;
+  background: rgba(30, 41, 59, 0.8) !important;
 }
 
 table th {
-  background: #f8fafc !important;
-  color: #374151 !important;
-  padding: 16px !important;
+  background: rgba(15, 23, 42, 0.9) !important;
+  color: #f1f5f9 !important;
+  padding: 20px !important;
   font-weight: 600 !important;
-  border-bottom: 2px solid #e2e8f0 !important;
+  border-bottom: 2px solid rgba(6, 182, 212, 0.3) !important;
+  font-size: 0.9rem !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.05em !important;
 }
 
 table td {
-  padding: 16px !important;
-  border-bottom: 1px solid #f1f5f9 !important;
-  color: #4b5563 !important;
+  padding: 20px !important;
+  border-bottom: 1px solid rgba(51, 65, 85, 0.3) !important;
+  color: #cbd5e1 !important;
+  font-size: 0.95rem !important;
 }
 
 table tr:hover td {
-  background: #f8fafc !important;
+  background: rgba(6, 182, 212, 0.05) !important;
+  color: #e2e8f0 !important;
 }
 
-// Better checkboxes
+// Better checkboxes for dark theme
 input[type="checkbox"] {
-  transform: scale(1.2) !important;
-  margin-right: 8px !important;
-  accent-color: #3b82f6 !important;
+  transform: scale(1.3) !important;
+  margin-right: 12px !important;
+  accent-color: #06b6d4 !important;
   cursor: pointer !important;
+  filter: brightness(1.2) !important;
 }
 
-// Subtle link hover
+// Subtle link animations
 a:not(.btn):hover {
-  color: #2563eb !important;
-  transition: color 0.2s ease !important;
+  color: #67e8f9 !important;
+  transition: all 0.3s ease !important;
+  text-shadow: 0 0 8px rgba(103, 232, 249, 0.3) !important;
 }
 
-// Clean search
+// Search with dark theme
 .search-input {
-  border-radius: 8px !important;
-  border: 1px solid #d1d5db !important;
-  padding: 8px 16px !important;
-  transition: all 0.2s ease !important;
+  border-radius: 12px !important;
+  border: 1px solid rgba(51, 65, 85, 0.5) !important;
+  padding: 12px 20px !important;
+  transition: all 0.3s ease !important;
+  background: rgba(15, 23, 42, 0.8) !important;
+  color: #e2e8f0 !important;
 }
 
 .search-input:focus {
-  border-color: #3b82f6 !important;
-  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1) !important;
+  border-color: #06b6d4 !important;
+  box-shadow: 0 0 0 3px rgba(6, 182, 212, 0.2) !important;
   outline: none !important;
+  background: rgba(15, 23, 42, 0.95) !important;
 }
 
-// Clean aux nav
+.search-input::placeholder {
+  color: #64748b !important;
+}
+
+// Header nav links
 .aux-nav a {
-  color: white !important;
+  color: rgba(255, 255, 255, 0.9) !important;
   text-decoration: none !important;
-  padding: 6px 12px !important;
-  border-radius: 6px !important;
-  background: rgba(255, 255, 255, 0.15) !important;
-  transition: all 0.2s ease !important;
-  margin-left: 8px !important;
+  padding: 8px 16px !important;
+  border-radius: 8px !important;
+  background: rgba(255, 255, 255, 0.1) !important;
+  transition: all 0.3s ease !important;
+  margin-left: 12px !important;
   font-size: 0.9rem !important;
+  font-weight: 500 !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
 }
 
 .aux-nav a:hover {
-  background: rgba(255, 255, 255, 0.25) !important;
+  background: rgba(255, 255, 255, 0.2) !important;
+  transform: translateY(-1px) !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2) !important;
 }
 
-// Better spacing
+// Better text readability
 .main-content p {
-  margin-bottom: 1rem !important;
-  line-height: 1.6 !important;
-  color: #4b5563 !important;
+  margin-bottom: 1.25rem !important;
+  line-height: 1.7 !important;
+  color: #cbd5e1 !important;
+  font-size: 1rem !important;
 }
 
 .main-content ul li {
-  margin-bottom: 0.5rem !important;
-  color: #4b5563 !important;
+  margin-bottom: 0.75rem !important;
+  color: #cbd5e1 !important;
+  line-height: 1.6 !important;
+}
+
+.main-content strong {
+  color: #f1f5f9 !important;
+  font-weight: 600 !important;
+}
+
+// Links within content
+.main-content a:not(.btn) {
+  color: #67e8f9 !important;
+  text-decoration: underline !important;
+  text-decoration-color: rgba(103, 232, 249, 0.4) !important;
+  text-underline-offset: 2px !important;
 }
 
 // Mobile improvements
 @media (max-width: 768px) {
   .main-content-wrap {
     margin: 1rem !important;
-    border-radius: 8px !important;
+    border-radius: 12px !important;
   }
   
   .main-content {
-    padding: 1.5rem !important;
+    padding: 2rem !important;
   }
   
   .site-title {
-    font-size: 1.3rem !important;
+    font-size: 1.5rem !important;
   }
   
   table {
-    font-size: 0.9rem !important;
+    font-size: 0.85rem !important;
   }
+  
+  table th, table td {
+    padding: 12px !important;
+  }
+  
+  h1 {
+    font-size: 1.75rem !important;
+  }
+  
+  .navigation-list-item > a {
+    margin: 2px 12px !important;
+    padding: 10px 16px !important;
+  }
+}
+
+// Smooth scrolling for better UX
+html {
+  scroll-behavior: smooth !important;
+}
+
+// Selection styling
+::selection {
+  background: rgba(6, 182, 212, 0.3) !important;
+  color: #f1f5f9 !important;
 }
