@@ -79,32 +79,30 @@ body {
 }
 
 // ============================================================================
-// SIMPLE APPROACH - ONE GRADIENT ACROSS THE TOP
+// CLEAN HEADER - BLACK WITH GLOWY RED LINE
 // ============================================================================
 
-// Remove the body::before approach - too complex
-body::before {
-  display: none !important;
-}
-
-// Target the main page container and give it a gradient top
+// Remove the gradient background approach
 .page-wrap, 
 body {
-  background: linear-gradient(to bottom, 
-    rgba(220, 38, 38, 1) 0%,
-    rgba(239, 68, 68, 1) 30%, 
-    rgba(239, 68, 68, 0.8) 60%,
-    transparent 100%
-  ), $bg-primary !important;
-  background-size: 100% 80px !important;
-  background-repeat: no-repeat !important;
+  background: $bg-primary !important;
 }
 
-// Make ALL header elements transparent
+// Simple black header with glowy red bottom border
 .site-header, 
 .main-header,
 .site-header-wrap,
-.page-wrap > .site-header,
+.page-wrap > .site-header {
+  background: #000000 !important; // Pure black
+  padding: 1.5rem 0 !important;
+  border-bottom: 3px solid $red-light !important;
+  box-shadow: 0 3px 20px rgba($red-light, 0.6), 0 0 40px rgba($red-light, 0.3) !important; // Glowy effect
+  position: relative !important;
+  width: 100% !important;
+  margin: 0 !important;
+}
+
+// Remove any other background styling on header children
 .site-header *,
 .main-header *,
 .site-header-wrap * {
@@ -112,16 +110,27 @@ body {
   background-color: transparent !important;
 }
 
-// Ensure buttons and search are visible with white text
+// Keep header text white and visible
 .site-header .site-title {
   color: white !important;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) !important;
+  font-weight: 700 !important;
+  font-size: 1.75rem !important;
 }
 
+// Keep navigation buttons visible and styled
 .site-header .aux-nav a {
   color: white !important;
   background: rgba(255, 255, 255, 0.1) !important;
   border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  padding: 8px 16px !important;
+  border-radius: 8px !important;
+  transition: all 0.3s ease !important;
+  
+  &:hover {
+    background: rgba($red-light, 0.3) !important;
+    border-color: rgba($red-light, 0.5) !important;
+  }
 }
 
 // ============================================================================
