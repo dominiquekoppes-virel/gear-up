@@ -71,10 +71,10 @@ This is the percentage of students that successfully obtain a Bachelor's degree 
 - [ ] **Average starting salary for my major:** $__________
 
 **Questions to ask yourself:**
-□ Can I actually afford this (with financial aid)?
-□ Will I be happy spending 4+ years here?
-□ Does this school help students like me succeed?
-□ What happens if I change my mind about my major?
+- [ ] Can I actually afford this (with financial aid)?
+- [ ] Will I be happy spending 4+ years here?
+- [ ] Does this school help students like me succeed?
+- [ ] What happens if I change my mind about my major?
 
 **Notes/Red Flags/Things That Excite Me:**
 
