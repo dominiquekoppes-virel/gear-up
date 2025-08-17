@@ -376,6 +376,137 @@ html {
   background: linear-gradient(90deg, #ef4444, #ffffff, #ef4444) !important;
 }
 
+// PATHWAY CARDS - Make them actually readable and engaging
+.pathway-grid {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important;
+  gap: 1.5rem !important;
+  margin: 2rem 0 !important;
+}
+
+.pathway-card {
+  background: linear-gradient(135deg, rgba(26, 26, 26, 0.9), rgba(51, 51, 51, 0.7)) !important;
+  border: 2px solid rgba(239, 68, 68, 0.3) !important;
+  border-radius: 16px !important;
+  padding: 2rem !important;
+  text-align: center !important;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
+  backdrop-filter: blur(10px) !important;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3) !important;
+}
+
+.pathway-card:hover {
+  transform: translateY(-8px) scale(1.03) !important;
+  border-color: #ef4444 !important;
+  box-shadow: 0 16px 40px rgba(239, 68, 68, 0.4) !important;
+  background: linear-gradient(135deg, rgba(239, 68, 68, 0.1), rgba(26, 26, 26, 0.95)) !important;
+}
+
+.pathway-card .pathway-icon {
+  font-size: 3rem !important;
+  display: block !important;
+  margin-bottom: 1rem !important;
+  filter: drop-shadow(0 4px 8px rgba(239, 68, 68, 0.3)) !important;
+}
+
+.pathway-card h4 {
+  color: #ffffff !important;
+  font-size: 1.5rem !important;
+  font-weight: 700 !important;
+  margin-bottom: 1rem !important;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) !important;
+}
+
+.pathway-card h4 strong {
+  color: #ef4444 !important;
+  font-size: 1.2em !important;
+}
+
+.pathway-card p {
+  color: #f1f5f9 !important;
+  font-size: 1rem !important;
+  line-height: 1.6 !important;
+  margin-bottom: 1rem !important;
+}
+
+.pathway-card p em {
+  color: #fca5a5 !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+}
+
+.pathway-card .btn {
+  margin-top: 1rem !important;
+  width: 100% !important;
+  font-weight: 600 !important;
+}
+
+// Quick start card styling
+.quick-start-card {
+  background: linear-gradient(135deg, rgba(239, 68, 68, 0.15), rgba(26, 26, 26, 0.9)) !important;
+  border: 2px solid rgba(239, 68, 68, 0.4) !important;
+  border-radius: 16px !important;
+  padding: 2.5rem !important;
+  margin: 2rem 0 !important;
+  text-align: center !important;
+  backdrop-filter: blur(10px) !important;
+  box-shadow: 0 8px 32px rgba(239, 68, 68, 0.2) !important;
+}
+
+.quick-start-card h3 {
+  color: #ffffff !important;
+  font-size: 1.75rem !important;
+  margin-bottom: 1rem !important;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) !important;
+}
+
+.quick-start-card p {
+  color: #f1f5f9 !important;
+  font-size: 1.1rem !important;
+  margin-bottom: 1.5rem !important;
+}
+
+// Better highlight boxes
+.highlight {
+  background: rgba(239, 68, 68, 0.15) !important;
+  border: 1px solid rgba(239, 68, 68, 0.3) !important;
+  border-radius: 12px !important;
+  padding: 1.5rem !important;
+  margin: 1.5rem 0 !important;
+  color: #f1f5f9 !important;
+  border-left: 4px solid #ef4444 !important;
+}
+
+.important {
+  background: rgba(251, 191, 36, 0.15) !important;
+  border: 1px solid rgba(251, 191, 36, 0.3) !important;
+  border-radius: 12px !important;
+  padding: 1.5rem !important;
+  margin: 1.5rem 0 !important;
+  color: #fde047 !important;
+  border-left: 4px solid #fbbf24 !important;
+}
+
+.tip {
+  background: rgba(34, 197, 94, 0.15) !important;
+  border: 1px solid rgba(34, 197, 94, 0.3) !important;
+  border-radius: 12px !important;
+  padding: 1.5rem !important;
+  margin: 1.5rem 0 !important;
+  color: #86efac !important;
+  border-left: 4px solid #22c55e !important;
+}
+
+.note {
+  background: rgba(6, 182, 212, 0.15) !important;
+  border: 1px solid rgba(6, 182, 212, 0.3) !important;
+  border-radius: 12px !important;
+  padding: 1.5rem !important;
+  margin: 1.5rem 0 !important;
+  color: #67e8f9 !important;
+  border-left: 4px solid #06b6d4 !important;
+}
+
 // Add some sick animated elements for maximum engagement
 @keyframes redGlow {
   0%, 100% { box-shadow: 0 0 20px rgba(239, 68, 68, 0.3); }
