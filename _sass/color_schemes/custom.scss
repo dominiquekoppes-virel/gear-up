@@ -87,11 +87,6 @@ body {
   border-bottom: 2px solid rgba($red-light, 0.3) !important;
   box-shadow: 0 4px 20px rgba($red-primary, 0.3) !important;
   position: relative !important;
-  width: 100vw !important; // Full viewport width
-  left: 0 !important;
-  right: 0 !important;
-  z-index: 100 !important;
-  margin-left: calc(-1 * var(--sidebar-width, 264px)) !important; // Pull left to cover sidebar
   
   &::before {
     content: "" !important;
@@ -104,20 +99,12 @@ body {
   }
 }
 
-// Ensure the header wrapper spans full width
-.site-header .site-header-wrap,
-.site-header .main-header {
-  width: 100% !important;
-  max-width: none !important;
-  padding-left: var(--sidebar-width, 264px) !important; // Add padding to account for sidebar
-}
-
-// Fix any container that might be constraining the header
-.page-wrap {
-  .site-header {
-    margin: 0 !important;
-    border-radius: 0 !important;
-  }
+// Make sure the sidebar stays dark
+.navigation {
+  background: rgba($bg-primary, 0.95) !important; // Darker and more opaque
+  border-right: 1px solid rgba($border-color, 0.5) !important;
+  padding: 1rem 0 !important;
+  backdrop-filter: blur(10px) !important;
 }
 
 .site-title {
