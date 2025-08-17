@@ -61,7 +61,7 @@ permalink: /section2/personal-info-continued/
 ## Family Information and Other Personal Information
 
 **Has either of your parents earned a bachelor's degree or higher?**
-□ Yes    □ No
+- [ ] Yes    - [ ] No
 
 **What is the level of education parents have earned?**
 _________________________________________________
@@ -69,7 +69,7 @@ _________________________________________________
 **Why this matters:** This helps colleges understand your background. Being a first-generation college student can actually be an advantage in applications and for scholarships.
 
 **Are your parents affiliated with the US military?**
-□ Yes    □ No
+- [ ] Yes    - [ ] No
 
 **Why this matters:** Military families often qualify for specific scholarships and programs. If yes, research military-connected college benefits.
 
@@ -104,21 +104,21 @@ _________________________________________________
 **Before you start filling out actual college applications, make sure you have:**
 
 ### Documents Ready:
-□ **High school transcript** (request official copies from your counselor)
-□ **Standardized test scores** (ACT/SAT - know how to send them to colleges)
-□ **Letters of recommendation** (ask teachers/counselors at least 4 weeks in advance)
-□ **Personal essay drafts** (start early, get feedback, revise multiple times)
+- [ ] **High school transcript** (request official copies from your counselor)
+- [ ] **Standardized test scores** (ACT/SAT - know how to send them to colleges)
+- [ ] **Letters of recommendation** (ask teachers/counselors at least 4 weeks in advance)
+- [ ] **Personal essay drafts** (start early, get feedback, revise multiple times)
 
 ### Information Organized:
-□ **All the info from these worksheets** typed up and saved somewhere safe
-□ **List of colleges** with application deadlines and requirements
-□ **FAFSA information** gathered (you + parents will need tax info)
-□ **Fee waivers** requested if needed
+- [ ] **All the info from these worksheets** typed up and saved somewhere safe
+- [ ] **List of colleges** with application deadlines and requirements
+- [ ] **FAFSA information** gathered (you + parents will need tax info)
+- [ ] **Fee waivers** requested if needed
 
 ### Support System:
-□ **Someone to proofread** your applications before submitting
-□ **Adults who can help** with questions (counselor, GEAR UP coordinator, family)
-□ **Backup plan** if technology fails on deadline day
+- [ ] **Someone to proofread** your applications before submitting
+- [ ] **Adults who can help** with questions (counselor, GEAR UP coordinator, family)
+- [ ] **Backup plan** if technology fails on deadline day
 
 ---
 
