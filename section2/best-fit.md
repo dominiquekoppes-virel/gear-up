@@ -20,66 +20,66 @@ Deciding which college to attend can be a challenge - there are so many factors 
 **My Ranking (1 = Most Important, 8 = Least Important):**
 
 ### Type of School
-□ Two-year or four-year
-□ Public or private  
-□ University/research institution or liberal arts college
-□ All-male, all-female, or coed
-□ Religious or secular
+- [ ] Two-year or four-year
+- [ ] Public or private  
+- [ ] University/research institution or liberal arts college
+- [ ] All-male, all-female, or coed
+- [ ] Religious or secular
 
 **Rank: _____ Why this matters to me:** _________________________
 
 ### Student Life  
-□ On and off campus activities
-□ Athletics
-□ Greek life
-□ Student organizations
-□ Safety
-□ Student body diversity
+- [ ] On and off campus activities
+- [ ] Athletics
+- [ ] Greek life
+- [ ] Student organizations
+- [ ] Safety
+- [ ] Student body diversity
 
 **Rank: _____ Why this matters to me:** _________________________
 
 ### Location
-□ Urban or rural
-□ Size of nearest city
-□ Distance from home
-□ Geographic setting and weather
+- [ ] Urban or rural
+- [ ] Size of nearest city
+- [ ] Distance from home
+- [ ] Geographic setting and weather
 
 **Rank: _____ Why this matters to me:** _________________________
 
 ### Affordability
-□ Cost of attendance (tuition, fees, transportation, housing)
-□ Scholarships
-□ Campus employment opportunities
+- [ ] Cost of attendance (tuition, fees, transportation, housing)
+- [ ] Scholarships
+- [ ] Campus employment opportunities
 
 **Rank: _____ Why this matters to me:** _________________________
 
 ### Admission Requirements
-□ Minimum GPA
-□ Average test scores
-□ Required high school courses
-□ Likelihood of being accepted
+- [ ] Minimum GPA
+- [ ] Average test scores
+- [ ] Required high school courses
+- [ ] Likelihood of being accepted
 
 **Rank: _____ Why this matters to me:** _________________________
 
 ### Housing
-□ Residence halls
-□ On and off campus housing
-□ Meal plan
-□ Parking for residents and for commuters
+- [ ] Residence halls
+- [ ] On and off campus housing
+- [ ] Meal plan
+- [ ] Parking for residents and for commuters
 
 **Rank: _____ Why this matters to me:** _________________________
 
 ### Academics
-□ Programs and majors offered
-□ Student-faculty ratio
-□ Accreditation
+- [ ] Programs and majors offered
+- [ ] Student-faculty ratio
+- [ ] Accreditation
 
 **Rank: _____ Why this matters to me:** _________________________
 
 ### Size
-□ Physical enrollment or online
-□ Average class size
-□ Physical size of campus
+- [ ] Physical enrollment or online
+- [ ] Average class size
+- [ ] Physical size of campus
 
 **Rank: _____ Why this matters to me:** _________________________
 
@@ -124,13 +124,13 @@ _________________________________________________
 
 **After you've done your ranking, ask yourself:**
 
-□ **Am I being realistic about costs?** If affordability isn't in your top 3, double-check that you can actually afford your choices.
+- [ ] **Am I being realistic about costs?** If affordability isn't in your top 3, double-check that you can actually afford your choices.
 
-□ **Am I overthinking location?** Sometimes students get stuck on wanting to be exactly 2.5 hours from home. Be flexible.
+- [ ] **Am I overthinking location?** Sometimes students get stuck on wanting to be exactly 2.5 hours from home. Be flexible.
 
-□ **Am I picking schools for the right reasons?** Choosing a school because it sounds impressive to others usually doesn't lead to happiness.
+- [ ] **Am I picking schools for the right reasons?** Choosing a school because it sounds impressive to others usually doesn't lead to happiness.
 
-□ **What if my priorities change?** Will these schools still work if you discover new interests?
+- [ ] **What if my priorities change?** Will these schools still work if you discover new interests?
 
 **Notes about what I learned about myself:**
 
