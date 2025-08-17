@@ -167,11 +167,11 @@ permalink: /section1/workforce/
 
 **Start building relationships from day one:**
 
-- [ ] **Be friendly** with coworkers
-- [ ] **Learn from experienced workers**
-- [ ] **Join professional groups** if they exist
-- [ ] **Stay in touch** with good managers when you move on
-- [ ] **Help others** when you can
+- **Be friendly** with coworkers
+- **Learn from experienced workers**
+- **Join professional groups** if they exist
+- **Stay in touch** with good managers when you move on
+- **Help others** when you can
 
 ---
 
