@@ -84,9 +84,9 @@ permalink: /section2/act-vs-sat/
 ### What Are Placement Tests Like?
 
 **Colleges use several common placement tests. The tests usually measure skills in these subjects:**
-• Math
-• Reading  
-• Writing
+- Math
+- Reading  
+- Writing
 
 **Some placement tests are given online, and you receive scores as soon as you finish. Several states and individual colleges have developed their own placement tests.**
 
@@ -94,11 +94,11 @@ permalink: /section2/act-vs-sat/
 
 **Placement tests measure the skills you've already learned in high school, so your preparation should include reviewing sample questions to learn what topics to brush up on. To get ready for these tests, you can:**
 
-• **First, check with an admission officer at your college to find out if you must take a placement test.**
+- **First, check with an admission officer at your college to find out if you must take a placement test.**
 
-• **If so, find out what subjects the test will cover.**
+- **If so, find out what subjects the test will cover.**
 
-• **Check the college website for information about the test and ways to prepare.**
+- **Check the college website for information about the test and ways to prepare.**
 
 ### What Do The Results Mean?
 
@@ -120,19 +120,19 @@ permalink: /section2/act-vs-sat/
 
 **Placement Test Preparation:**
 
-□ **Contact my college** to find out if I need placement tests
-□ **Find out which subjects** will be tested
-□ **Review sample questions** on the college website
-□ **Brush up on** math and English basics before the test
-□ **Schedule the test** for a time when I'm prepared
+- [ ] **Contact my college** to find out if I need placement tests
+- [ ] **Find out which subjects** will be tested
+- [ ] **Review sample questions** on the college website
+- [ ] **Brush up on** math and English basics before the test
+- [ ] **Schedule the test** for a time when I'm prepared
 
 **Don't stress about placement tests** - they're designed to help you succeed by putting you in the right level classes.
 
 **If I place into remedial courses:**
-□ **View it as extra preparation** rather than a setback
-□ **Take advantage of tutoring** and support services
-□ **Focus on building strong foundations** for future courses
-□ **Remember that many successful students** start with remedial courses
+- [ ] **View it as extra preparation** rather than a setback
+- [ ] **Take advantage of tutoring** and support services
+- [ ] **Focus on building strong foundations** for future courses
+- [ ] **Remember that many successful students** start with remedial courses
 
 **Questions for my college:**
 
