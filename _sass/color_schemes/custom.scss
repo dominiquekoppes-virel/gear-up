@@ -79,63 +79,49 @@ body {
 }
 
 // ============================================================================
-// FORCE FULL WIDTH HEADER GRADIENT
+// SIMPLE APPROACH - ONE GRADIENT ACROSS THE TOP
 // ============================================================================
+
+// Remove the body::before approach - too complex
+body::before {
+  display: none !important;
+}
+
+// Target the main page container and give it a gradient top
+.page-wrap, 
+body {
+  background: linear-gradient(to bottom, 
+    rgba(220, 38, 38, 1) 0%,
+    rgba(239, 68, 68, 1) 30%, 
+    rgba(239, 68, 68, 0.8) 60%,
+    transparent 100%
+  ), $bg-primary !important;
+  background-size: 100% 80px !important;
+  background-repeat: no-repeat !important;
+}
+
+// Make ALL header elements transparent
 .site-header, 
 .main-header,
 .site-header-wrap,
-body > header,
-.page-wrap > .site-header {
-  background: transparent !important; // Make headers transparent so only body gradient shows
-  padding: 1.5rem 0 !important;
-  border-bottom: 2px solid rgba($red-light, 0.3) !important;
-  box-shadow: 0 4px 20px rgba($red-primary, 0.3) !important;
-  position: relative !important;
-  width: 100% !important;
-  margin: 0 !important;
-  z-index: 1001 !important;
-  
-  &::before {
-    content: "" !important;
-    position: absolute !important;
-    top: 0 !important;
-    left: 0 !important;
-    right: 0 !important;
-    height: 2px !important;
-    background: linear-gradient(90deg, $red-light, $text-primary, $red-light) !important;
-  }
-}
-
-// SINGLE UNIFIED GRADIENT BACKGROUND - TALLER TO COVER EVERYTHING
-body::before {
-  content: "" !important;
-  position: fixed !important;
-  top: 0 !important;
-  left: 0 !important;
-  right: 0 !important;
-  height: 120px !important; // Taller to ensure full coverage
-  background: linear-gradient(135deg, #000000 0%, $red-primary 50%, $red-light 100%) !important;
-  z-index: 999 !important; // Behind everything but visible
-  pointer-events: none !important;
-}
-
-// Force any header containers to be transparent
+.page-wrap > .site-header,
 .site-header *,
 .main-header *,
 .site-header-wrap * {
   background: transparent !important;
+  background-color: transparent !important;
 }
 
-// Make sure header content (buttons, search) appear ABOVE and have proper styling
-.site-header .site-title,
-.site-header .aux-nav,
-.site-header .search,
-.site-header button,
-.site-header input,
-.site-header a {
-  position: relative !important;
-  z-index: 1002 !important;
-  background: transparent !important; // Ensure no background blocks the gradient
+// Ensure buttons and search are visible with white text
+.site-header .site-title {
+  color: white !important;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) !important;
+}
+
+.site-header .aux-nav a {
+  color: white !important;
+  background: rgba(255, 255, 255, 0.1) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
 }
 
 // ============================================================================
