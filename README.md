@@ -12,7 +12,7 @@ permalink: /
 {: .fs-6 .fw-300 }
 
 <div class="quick-start-card">
-<h3>🚀 Ready to Get Started?</h3>
+<h3>🔥 Ready to Get Started?</h3>
 <p>Not sure where to begin? Take our quick assessment to find your best path forward.</p>
 <a href="section8/" class="btn btn-primary fs-5 mb-4 mb-md-0 mr-2">Take the Assessment</a>
 <a href="#pathway-options" class="btn fs-5 mb-4 mb-md-0">Explore All Paths</a>
