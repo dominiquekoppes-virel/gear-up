@@ -41,9 +41,9 @@ Admitted students at match schools have GPAs and test scores that are similar to
 While you likely want to try your chances at several reach schools, it's not a good idea to put all your eggs in this basket. While you may be tempted to apply to more than 10 schools, you want to curb this desire, too. Applications for colleges are lengthy and take up a lot of your time, especially if senior year. It's actually better to devote more time and effort to each of those applications, rather than applying to more and possibly not giving each the attention it needs. Understand which schools are reach, match, or safety for you is essential to be sure you're finding balance. Make sure you're comparing what the colleges are looking for from applicants, and how you stack up, before applying. A good rule of thumb to apply to 6-10 colleges. When you draft your final list, it should look something like this:
 
 **Recommended Mix:**
-• **2-3 Reach Schools**
-• **3-4 Match Schools** 
-• **2-3 Safety Schools**
+- **2-3 Reach Schools**
+- **3-4 Match Schools** 
+- **2-3 Safety Schools**
 
 **Why This Works:**
 - You're covered if your reach schools don't work out
@@ -54,13 +54,13 @@ While you likely want to try your chances at several reach schools, it's not a g
 
 **Before you fall in love with any school:**
 
-□ **Can you actually afford it?** Even if you get in, can your family handle the cost?
+- [ ] **Can you actually afford it?** Even if you get in, can your family handle the cost?
 
-□ **What if you change your mind about your major?** Does this school have other options you'd be interested in?
+- [ ] **What if you change your mind about your major?** Does this school have other options you'd be interested in?
 
-□ **Are you applying here for the right reasons?** Because you actually want to go there, or because it sounds impressive?
+- [ ] **Are you applying here for the right reasons?** Because you actually want to go there, or because it sounds impressive?
 
-□ **What's your backup plan?** If none of your four-year schools work out, what's Plan B?
+- [ ] **What's your backup plan?** If none of your four-year schools work out, what's Plan B?
 
 ## Your College List Worksheet
 
