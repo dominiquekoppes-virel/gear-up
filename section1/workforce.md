@@ -23,14 +23,14 @@ permalink: /section1/workforce/
 
 **Check the areas that sound appealing:**
 
-□ **Retail/Customer Service** (stores, restaurants, call centers)
-□ **Healthcare Support** (hospital aide, home health, clinic work)
-□ **Office/Administrative** (data entry, reception, filing)
-□ **Transportation** (delivery, warehouse, logistics)
-□ **Construction/Labor** (general labor, helper positions)
-□ **Manufacturing** (factory work, assembly, quality control)
-□ **Hospitality** (hotels, tourism, event planning)
-□ **Other:** _________________________________
+- [ ] **Retail/Customer Service** (stores, restaurants, call centers)
+- [ ] **Healthcare Support** (hospital aide, home health, clinic work)
+- [ ] **Office/Administrative** (data entry, reception, filing)
+- [ ] **Transportation** (delivery, warehouse, logistics)
+- [ ] **Construction/Labor** (general labor, helper positions)
+- [ ] **Manufacturing** (factory work, assembly, quality control)
+- [ ] **Hospitality** (hotels, tourism, event planning)
+- [ ] **Other:** _________________________________
 
 ### Jobs I'm Actually Considering:
 1. ___________________________
@@ -43,12 +43,12 @@ permalink: /section1/workforce/
 
 **Where to look for opportunities:**
 
-□ **Online job boards** (Indeed, local job sites)
-□ **Company websites** (apply directly)
-□ **Walk-ins** (some places still hire this way)
-□ **Networking** (ask everyone you know)
-□ **Temp agencies** (good way to try different jobs)
-□ **Job fairs** (meet multiple employers at once)
+- [ ] **Online job boards** (Indeed, local job sites)
+- [ ] **Company websites** (apply directly)
+- [ ] **Walk-ins** (some places still hire this way)
+- [ ] **Networking** (ask everyone you know)
+- [ ] **Temp agencies** (good way to try different jobs)
+- [ ] **Job fairs** (meet multiple employers at once)
 
 ### My Target Employers:
 **Local Business:** _______________________  
@@ -61,22 +61,22 @@ permalink: /section1/workforce/
 
 ### **Senior Year**
 **Fall/Winter**
-□ **Create a resume** (even with limited experience)
-□ **Practice interviewing** (ask adults to help you practice)
-□ **Get references** (teachers, coaches, family friends)
-□ **Start looking** (some places hire before graduation)
+- [ ] **Create a resume** (even with limited experience)
+- [ ] **Practice interviewing** (ask adults to help you practice)
+- [ ] **Get references** (teachers, coaches, family friends)
+- [ ] **Start looking** (some places hire before graduation)
 
 **Spring Semester**
-□ **Apply everywhere** that interests you
-□ **Follow up** on applications
-□ **Interview when invited**
-□ **Accept good offers**
+- [ ] **Apply everywhere** that interests you
+- [ ] **Follow up** on applications
+- [ ] **Interview when invited**
+- [ ] **Accept good offers**
 
 ### **After Graduation**
-□ **Start your job**
-□ **Be reliable** (show up on time, every time)
-□ **Learn everything** you can
-□ **Ask questions** and take on extra responsibilities
+- [ ] **Start your job**
+- [ ] **Be reliable** (show up on time, every time)
+- [ ] **Learn everything** you can
+- [ ] **Ask questions** and take on extra responsibilities
 
 ---
 
@@ -91,13 +91,13 @@ permalink: /section1/workforce/
 - **Good pay** once you're certified
 
 ### Common Apprenticeship Fields:
-□ **Electrical work**
-□ **Plumbing**
-□ **HVAC**
-□ **Carpentry**
-□ **Welding**
-□ **Auto mechanics**
-□ **Heavy equipment operation**
+- [ ] **Electrical work**
+- [ ] **Plumbing**
+- [ ] **HVAC**
+- [ ] **Carpentry**
+- [ ] **Welding**
+- [ ] **Auto mechanics**
+- [ ] **Heavy equipment operation**
 
 ### How to Find Apprenticeships:
 - Contact local trade unions
@@ -112,10 +112,10 @@ permalink: /section1/workforce/
 **When you start earning, be smart about it:**
 
 ### First Priorities:
-□ **Transportation** (car payment, insurance, gas)
-□ **Phone** (you need this for work)
-□ **Work clothes** (look professional)
-□ **Emergency fund** (save something, even if it's small)
+- [ ] **Transportation** (car payment, insurance, gas)
+- [ ] **Phone** (you need this for work)
+- [ ] **Work clothes** (look professional)
+- [ ] **Emergency fund** (save something, even if it's small)
 
 ### Avoid These Traps:
 - **Don't blow your first paycheck** on stuff you don't need
@@ -129,11 +129,11 @@ permalink: /section1/workforce/
 
 **Even if your first job isn't your dream job:**
 
-□ **Show up consistently** (this alone puts you ahead of many people)
-□ **Be willing to learn** (ask questions, take training)
-□ **Be professional** (with customers and coworkers)
-□ **Look for advancement** (extra responsibilities, promotions)
-□ **Network** (every job teaches you something and introduces you to people)
+- [ ] **Show up consistently** (this alone puts you ahead of many people)
+- [ ] **Be willing to learn** (ask questions, take training)
+- [ ] **Be professional** (with customers and coworkers)
+- [ ] **Look for advancement** (extra responsibilities, promotions)
+- [ ] **Network** (every job teaches you something and introduces you to people)
 
 ---
 
@@ -167,11 +167,11 @@ permalink: /section1/workforce/
 
 **Start building relationships from day one:**
 
-□ **Be friendly** with coworkers
-□ **Learn from experienced workers**
-□ **Join professional groups** if they exist
-□ **Stay in touch** with good managers when you move on
-□ **Help others** when you can
+- [ ] **Be friendly** with coworkers
+- [ ] **Learn from experienced workers**
+- [ ] **Join professional groups** if they exist
+- [ ] **Stay in touch** with good managers when you move on
+- [ ] **Help others** when you can
 
 ---
 
