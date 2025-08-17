@@ -25,17 +25,17 @@ permalink: /section1/university/
 ### What matters to you? (Check all that apply)
 {: .no_toc }
 
-□ Close to home (under 2 hours drive)  
-□ Far from home (adventure time)  
-□ Big school (10,000+ students)  
-□ Small school (cozy vibes)  
-□ Specific program I want  
-□ Good sports teams  
-□ Diverse student body  
-□ Affordable tuition  
-□ Good financial aid  
-□ Campus life/dorms  
-□ Weather (yes, this matters)
+- [ ] Close to home (under 2 hours drive)  
+- [ ] Far from home (adventure time)  
+- [ ] Big school (10,000+ students)  
+- [ ] Small school (cozy vibes)  
+- [ ] Specific program I want  
+- [ ] Good sports teams  
+- [ ] Diverse student body  
+- [ ] Affordable tuition  
+- [ ] Good financial aid  
+- [ ] Campus life/dorms  
+- [ ] Weather (yes, this matters)
 
 ### Schools I'm Actually Considering:
 
@@ -61,33 +61,33 @@ permalink: /section1/university/
 
 ### **Senior Year Fall (Right Now)**
 **August - September**
-□ **Application fee waivers** (get these ASAP if you need them)
-□ **Start applications** (most are online, not that bad)
-□ **Get transcripts sent** (ask guidance counselor)
+- [ ] **Application fee waivers** (get these ASAP if you need them)
+- [ ] **Start applications** (most are online, not that bad)
+- [ ] **Get transcripts sent** (ask guidance counselor)
 
 **October - December**
-□ **Take/retake ACT/SAT** if needed
-□ **Send test scores** to schools
-□ **Get FAFSA ID** (you + parent both need one)
-□ **Work on essays** (start early, seriously)
+- [ ] **Take/retake ACT/SAT** if needed
+- [ ] **Send test scores** to schools
+- [ ] **Get FAFSA ID** (you + parent both need one)
+- [ ] **Work on essays** (start early, seriously)
 
 ### **The Crunch Time (Winter/Spring)**
 **January - March**
-□ **FAFSA is live** - fill it out ASAP
-□ **Scholarship applications** (free money alert!)
-□ **Check application status** (make sure nothing's missing)
+- [ ] **FAFSA is live** - fill it out ASAP
+- [ ] **Scholarship applications** (free money alert!)
+- [ ] **Check application status** (make sure nothing's missing)
 
 **April - May**
-□ **Admission decisions** come in
-□ **Compare financial aid** offers
-□ **Make your choice** by May 1st
-□ **Put down deposit** to hold your spot
+- [ ] **Admission decisions** come in
+- [ ] **Compare financial aid** offers
+- [ ] **Make your choice** by May 1st
+- [ ] **Put down deposit** to hold your spot
 
 ### **Summer Before College**
-□ **Register for orientation**
-□ **Apply for housing** 
-□ **Set up payment plan** (if needed)
-□ **Panic about everything** (normal)
+- [ ] **Register for orientation**
+- [ ] **Apply for housing** 
+- [ ] **Set up payment plan** (if needed)
+- [ ] **Panic about everything** (normal)
 
 ---
 
