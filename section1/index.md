@@ -6,92 +6,161 @@ permalink: /section1/
 ---
 
 # Find Your Path
+{: .fs-9 }
 
-## Step 1: Pick Your Vibe
-{: .label .label-red }
-**What's your energy for life after high school?**
-
-<a href="university/" class="label label-blue">
-<h3><strong>[U] University Life</strong></h3>
-<p><em>4-year degree, campus experience, probably some debt</em></p>
-</a>
-
-<a href="../section2/transfer/" class="label label-green">
-<h3><strong>[T] Community College → Transfer</strong></h3>
-<p><em>Smart money move, then transfer to university</em></p>
-</a>
-
-<a href="community-college/" class="label label-yellow">
-<h3><strong>[C] Community College (Associate/Certificate)</strong></h3>
-<p><em>2 years max, specific skills, less debt</em></p>
-</a>
-
-<a href="trade-school/" class="label label-blue">
-<h3><strong>[TR] Trade/Technical School</strong></h3>
-<p><em>Learn something hands-on, get paid faster</em></p>
-</a>
-
-<a href="workforce/" class="label label-green">
-<h3><strong>[W] Work/Apprenticeship</strong></h3>
-<p><em>Start earning now, learn on the job</em></p>
-</a>
-
-<a href="military/" class="label label-red">
-<h3><strong>[M] Military</strong></h3>
-<p><em>Serve, travel, get training + college money</em></p>
-</a>
-
-<a href="../section8/" class="label label-yellow">
-<h3><strong>[?] Still Figuring It Out</strong></h3>
-<p><em>That's totally fine - let's explore</em></p>
-</a>
+**Step 1: What's your vibe for life after high school?**
+{: .fs-6 .fw-300 }
 
 ---
 
-## Step 2: Get Your Symbols
-{: .label .label-blue }
+## Your Pathway Options
 
-**Each path has its own symbol throughout this guide:**
+**Click on the path that sounds most like you right now:**
 
-| Symbol | Path | What It Means |
-|--------|------|---------------|
-| **[U]** | **University** | Traditional 4-year college route |
-| **[T]** | **Transfer** | Community college → university |
-| **[C]** | **Associate/Certificate** | 2-year programs |
-| **[TR]** | **Trade/Tech** | Hands-on career training |
-| **[W]** | **Work/Apprentice** | Jump into workforce |
-| **[M]** | **Military** | Armed forces |
+<div class="pathway-grid">
+  <div class="pathway-card">
+    <span class="pathway-icon">🎓</span>
+    <h4><strong>[U]</strong> University Life</h4>
+    <p>4-year degree, campus experience, probably some debt</p>
+    <p><em>Best if:</em> You want the traditional college experience</p>
+    <a href="university/" class="btn btn-primary">Learn More</a>
+  </div>
 
-### **Look for your symbol on every page!**
-{: .label .label-red }
+  <div class="pathway-card">
+    <span class="pathway-icon">🔄</span>
+    <h4><strong>[T]</strong> Smart Transfer Route</h4>
+    <p>Community college → University transfer</p>
+    <p><em>Best if:</em> You want to save money and need time to prepare</p>
+    <a href="../section2/transfer/" class="btn btn-primary">Learn More</a>
+  </div>
+
+  <div class="pathway-card">
+    <span class="pathway-icon">🏫</span>
+    <h4><strong>[C]</strong> Community College</h4>
+    <p>2-year associate degree or certificate</p>
+    <p><em>Best if:</em> You want specific skills and smaller classes</p>
+    <a href="community-college/" class="btn btn-primary">Learn More</a>
+  </div>
+
+  <div class="pathway-card">
+    <span class="pathway-icon">🔧</span>
+    <h4><strong>[TR]</strong> Trade/Technical School</h4>
+    <p>Learn something hands-on, get paid faster</p>
+    <p><em>Best if:</em> You learn by doing and want quick job entry</p>
+    <a href="trade-school/" class="btn btn-primary">Learn More</a>
+  </div>
+
+  <div class="pathway-card">
+    <span class="pathway-icon">💼</span>
+    <h4><strong>[W]</strong> Work/Apprenticeship</h4>
+    <p>Start earning now, learn on the job</p>
+    <p><em>Best if:</em> You need to start earning and prefer real-world learning</p>
+    <a href="workforce/" class="btn btn-primary">Learn More</a>
+  </div>
+
+  <div class="pathway-card">
+    <span class="pathway-icon">🎖️</span>
+    <h4><strong>[M]</strong> Military Service</h4>
+    <p>Serve, travel, get training + college money</p>
+    <p><em>Best if:</em> You want structure and education benefits</p>
+    <a href="military/" class="btn btn-primary">Learn More</a>
+  </div>
+
+  <div class="pathway-card">
+    <span class="pathway-icon">🤔</span>
+    <h4><strong>[?]</strong> Still Figuring It Out</h4>
+    <p>That's totally fine - let's explore your options</p>
+    <p><em>Best if:</em> You need help deciding what fits you</p>
+    <a href="../section8/" class="btn btn-primary">Take Assessment</a>
+  </div>
+</div>
 
 ---
 
-## Step 3: Your Plan, Your Timeline
-{: .label .label-green }
+## How the Symbol System Works
 
-**Not everyone moves at the same speed, and that's okay.**
+{: .highlight }
+**Throughout this guide, you'll see pathway symbols** that show which advice applies to your chosen path:
 
-- **Early Bird** - You've got this figured out and you're ahead of deadlines  
-- **Right on Time** - Following the recommended timeline  
-- **Catching Up** - Started late but making moves  
-- **Crisis Mode** - It's spring and you're just starting (we've all been there)
+<div class="symbol-grid">
+  <div class="symbol-card">
+    <span class="symbol-badge university">[U]</span>
+    <h4>University</h4>
+    <p>Traditional 4-year college route</p>
+  </div>
+  
+  <div class="symbol-card">
+    <span class="symbol-badge transfer">[T]</span>
+    <h4>Transfer</h4>
+    <p>Community college → university</p>
+  </div>
+  
+  <div class="symbol-card">
+    <span class="symbol-badge community">[C]</span>
+    <h4>Community College</h4>
+    <p>2-year programs</p>
+  </div>
+  
+  <div class="symbol-card">
+    <span class="symbol-badge trade">[TR]</span>
+    <h4>Trade/Tech</h4>
+    <p>Hands-on career training</p>
+  </div>
+  
+  <div class="symbol-card">
+    <span class="symbol-badge workforce">[W]</span>
+    <h4>Workforce</h4>
+    <p>Jump into work/apprenticeships</p>
+  </div>
+  
+  <div class="symbol-card">
+    <span class="symbol-badge military">[M]</span>
+    <h4>Military</h4>
+    <p>Armed forces service</p>
+  </div>
+</div>
 
-### **Whatever your situation, there's still time to make things happen.**
-{: .label .label-yellow }
+---
+
+## Your Timeline, Your Speed
+
+**Not everyone moves at the same pace - find where you're at:**
+
+{: .tip }
+**🚀 Early Bird** - You're ahead of deadlines and have things figured out
+
+{: .note }  
+**⏰ Right on Time** - Following the recommended timeline and feeling good
+
+{: .warning }
+**🏃 Catching Up** - Started planning late but making moves now
+
+{: .important }
+**🚨 Crisis Mode** - It's spring senior year and you're just starting (we've got you!)
 
 ---
 
 ## Quick Reality Check
-{: .label .label-blue }
 
-**Before you dive in:**
+{: .highlight }
+**Before you dive deeper, remember:**
 
-- **You don't have to stick with your first choice forever**
-- **Most people change careers multiple times**
-- **There's no "wrong" path, just different ones**
-- **Your timeline doesn't have to match your friends'**
-- **It's okay to be nervous about this stuff**
+- **You don't have to stick with your first choice forever** - most people change paths
+- **Your timeline doesn't have to match your friends'** - everyone's journey is different  
+- **There's no "wrong" path** - just different routes to get where you want to go
+- **It's completely normal to feel nervous** about making these decisions
+- **Most successful people changed careers multiple times** in their lives
 
-### **Ready? Pick your path above and let's make a plan that actually works for you.**
-{: .label .label-red }
+---
+
+## Ready to Get Started?
+
+**Pick your pathway above to get detailed guidance, or:**
+
+- **[Take our assessment](../section8/)** if you're still unsure which path fits you
+- **[Jump to financial planning](../section3/)** if you know your path but need to figure out costs
+- **[Check out the decision-making guide](../section8/)** for tools to help you choose
+
+---
+
+*Remember: This is about finding a path that works for YOUR life, not what other people expect from you.*
