@@ -93,6 +93,7 @@ body > header,
   position: relative !important;
   width: 100% !important;
   margin: 0 !important;
+  z-index: 1001 !important; // Above the body gradient but below buttons
   
   &::before {
     content: "" !important;
@@ -105,7 +106,7 @@ body > header,
   }
 }
 
-// FORCE THE ENTIRE TOP TO BE GRADIENT
+// SINGLE UNIFIED GRADIENT BACKGROUND
 body::before {
   content: "" !important;
   position: fixed !important;
@@ -114,8 +115,19 @@ body::before {
   right: 0 !important;
   height: 80px !important;
   background: linear-gradient(135deg, #000000 0%, $red-primary 50%, $red-light 100%) !important;
-  z-index: 999 !important;
+  z-index: 1000 !important; // Behind everything
   pointer-events: none !important;
+}
+
+// Make sure header content (buttons, search) appear ABOVE the gradient
+.site-header .site-title,
+.site-header .aux-nav,
+.site-header .search,
+.site-header button,
+.site-header input,
+.site-header a {
+  position: relative !important;
+  z-index: 1002 !important; // Above all gradients
 }
 
 // ============================================================================
