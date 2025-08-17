@@ -24,14 +24,14 @@ permalink: /section1/trade-school/
 
 **What kind of hands-on work interests you?**
 
-□ **Healthcare** (nursing, medical assistant, dental hygienist)
-□ **Automotive** (mechanic, body work, diesel tech)
-□ **Construction** (electrician, plumbing, HVAC, carpentry)
-□ **Beauty/Wellness** (cosmetology, massage therapy, esthetics)
-□ **Technology** (computer repair, networking, cybersecurity)
-□ **Culinary** (chef, baking, restaurant management)
-□ **Manufacturing** (welding, machining, quality control)
-□ **Other:** _________________________________
+- [ ] **Healthcare** (nursing, medical assistant, dental hygienist)
+- [ ] **Automotive** (mechanic, body work, diesel tech)
+- [ ] **Construction** (electrician, plumbing, HVAC, carpentry)
+- [ ] **Beauty/Wellness** (cosmetology, massage therapy, esthetics)
+- [ ] **Technology** (computer repair, networking, cybersecurity)
+- [ ] **Culinary** (chef, baking, restaurant management)
+- [ ] **Manufacturing** (welding, machining, quality control)
+- [ ] **Other:** _________________________________
 
 ### Programs I'm Seriously Considering:
 1. ___________________________
@@ -55,12 +55,12 @@ permalink: /section1/trade-school/
 *Cost: _______________________________*
 
 ### Questions to Ask Schools:
-□ What's the job placement rate after graduation?
-□ What's the average starting salary?
-□ Do you help with job placement?
-□ What equipment will I learn on?
-□ Are instructors working professionals?
-□ Can I get financial aid?
+- [ ] What's the job placement rate after graduation?
+- [ ] What's the average starting salary?
+- [ ] Do you help with job placement?
+- [ ] What equipment will I learn on?
+- [ ] Are instructors working professionals?
+- [ ] Can I get financial aid?
 
 ---
 
@@ -68,27 +68,27 @@ permalink: /section1/trade-school/
 
 ### **Senior Year Fall**
 **August - December**
-□ **Research programs** (visit schools, talk to professionals)
-□ **Compare costs** and program lengths
-□ **Check if similar programs** are available at community college
-□ **Get application fee waivers** if needed
-□ **Apply to programs** (some have waiting lists)
+- [ ] **Research programs** (visit schools, talk to professionals)
+- [ ] **Compare costs** and program lengths
+- [ ] **Check if similar programs** are available at community college
+- [ ] **Get application fee waivers** if needed
+- [ ] **Apply to programs** (some have waiting lists)
 
 ### **Spring Semester**
 **January - March**
-□ **Complete FAFSA** (yes, trade schools qualify for aid)
-□ **Apply for scholarships** (many trades offer them)
-□ **Visit campuses** and meet instructors
+- [ ] **Complete FAFSA** (yes, trade schools qualify for aid)
+- [ ] **Apply for scholarships** (many trades offer them)
+- [ ] **Visit campuses** and meet instructors
 
 **April - May**
-□ **Make your choice**
-□ **Put down deposit** to hold your spot
-□ **Plan your schedule**
+- [ ] **Make your choice**
+- [ ] **Put down deposit** to hold your spot
+- [ ] **Plan your schedule**
 
 ### **Summer or Fall Start**
-□ **Attend orientation**
-□ **Get required supplies/tools**
-□ **Start earning those skills**
+- [ ] **Attend orientation**
+- [ ] **Get required supplies/tools**
+- [ ] **Start earning those skills**
 
 ---
 
@@ -132,11 +132,11 @@ permalink: /section1/trade-school/
 ## After You Graduate
 
 **Your options:**
-□ **Get hired** by a company (most common path)
-□ **Start an apprenticeship** (keep learning while earning)
-□ **Go into business** for yourself (be your own boss)
-□ **Specialize further** (become an expert in specific areas)
-□ **Teach others** (become an instructor)
+- [ ] **Get hired** by a company (most common path)
+- [ ] **Start an apprenticeship** (keep learning while earning)
+- [ ] **Go into business** for yourself (be your own boss)
+- [ ] **Specialize further** (become an expert in specific areas)
+- [ ] **Teach others** (become an instructor)
 
 ---
 
