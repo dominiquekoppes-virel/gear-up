@@ -35,21 +35,21 @@ Decide what you're looking for in a school. Ask your parents to do the same thin
 
 **Think about these questions:**
 
-□ **Why do I want to go to college?**
+- [ ] **Why do I want to go to college?**
 
-□ **What do I want to get out of college?**
+- [ ] **What do I want to get out of college?**
 
-□ **How will college help me work toward my goals?**
+- [ ] **How will college help me work toward my goals?**
 
-□ **Which college will best/least help me work toward my goals?**
+- [ ] **Which college will best/least help me work toward my goals?**
 
-□ **What are the advantages/disadvantages of going now rather than later?**
+- [ ] **What are the advantages/disadvantages of going now rather than later?**
 
-□ **Does it matter how many students are enrolled with me?**
+- [ ] **Does it matter how many students are enrolled with me?**
 
-□ **Do I want to be with students who have diverse ideas, viewpoints and backgrounds?**
+- [ ] **Do I want to be with students who have diverse ideas, viewpoints and backgrounds?**
 
-□ **In which type of campus setting am I most/least comfortable?**
+- [ ] **In which type of campus setting am I most/least comfortable?**
 
 **Reality Check:** Don't eliminate a school solely because it's outside your comfort zone. The challenge of dealing with the unfamiliar can help you grow as a person.
 
@@ -62,18 +62,18 @@ Decide what you're looking for in a school. Ask your parents to do the same thin
 3. _________________________________
 
 **Type of school that sounds appealing:**
-□ Big university (10,000+ students)
-□ Smaller college (under 5,000 students)  
-□ Community college first, then transfer
-□ Private college
-□ Public university
-□ Something else: ________________________
+- [ ] Big university (10,000+ students)
+- [ ] Smaller college (under 5,000 students)  
+- [ ] Community college first, then transfer
+- [ ] Private college
+- [ ] Public university
+- [ ] Something else: ________________________
 
 **Location preferences:**
-□ Close to home (under 2 hours)
-□ Far enough for independence but not too far
-□ Adventure time - bring on the distance
-□ Doesn't matter as long as the school is right
+- [ ] Close to home (under 2 hours)
+- [ ] Far enough for independence but not too far
+- [ ] Adventure time - bring on the distance
+- [ ] Doesn't matter as long as the school is right
 
 **Notes/Questions/Things That Worry Me:**
 
