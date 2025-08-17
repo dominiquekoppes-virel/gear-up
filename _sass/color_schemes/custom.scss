@@ -86,14 +86,14 @@ body {
 .site-header-wrap,
 body > header,
 .page-wrap > .site-header {
-  background: linear-gradient(135deg, #000000 0%, $red-primary 50%, $red-light 100%) !important;
+  background: transparent !important; // Make headers transparent so only body gradient shows
   padding: 1.5rem 0 !important;
   border-bottom: 2px solid rgba($red-light, 0.3) !important;
   box-shadow: 0 4px 20px rgba($red-primary, 0.3) !important;
   position: relative !important;
   width: 100% !important;
   margin: 0 !important;
-  z-index: 1001 !important; // Above the body gradient but below buttons
+  z-index: 1001 !important;
   
   &::before {
     content: "" !important;
@@ -106,20 +106,27 @@ body > header,
   }
 }
 
-// SINGLE UNIFIED GRADIENT BACKGROUND
+// SINGLE UNIFIED GRADIENT BACKGROUND - TALLER TO COVER EVERYTHING
 body::before {
   content: "" !important;
   position: fixed !important;
   top: 0 !important;
   left: 0 !important;
   right: 0 !important;
-  height: 80px !important;
+  height: 120px !important; // Taller to ensure full coverage
   background: linear-gradient(135deg, #000000 0%, $red-primary 50%, $red-light 100%) !important;
-  z-index: 1000 !important; // Behind everything
+  z-index: 999 !important; // Behind everything but visible
   pointer-events: none !important;
 }
 
-// Make sure header content (buttons, search) appear ABOVE the gradient
+// Force any header containers to be transparent
+.site-header *,
+.main-header *,
+.site-header-wrap * {
+  background: transparent !important;
+}
+
+// Make sure header content (buttons, search) appear ABOVE and have proper styling
 .site-header .site-title,
 .site-header .aux-nav,
 .site-header .search,
@@ -127,7 +134,8 @@ body::before {
 .site-header input,
 .site-header a {
   position: relative !important;
-  z-index: 1002 !important; // Above all gradients
+  z-index: 1002 !important;
+  background: transparent !important; // Ensure no background blocks the gradient
 }
 
 // ============================================================================
