@@ -23,9 +23,9 @@ permalink: /section1/community-college/
 
 **What's your community college game plan?**
 
-□ **Get an Associate Degree** (2 years, then I'm done with school)
-□ **Earn a Certificate** (6 months to 2 years, specific job skills)
-□ **Transfer Track** (knock out gen eds, then transfer to university)
+- [ ] **Get an Associate Degree** (2 years, then I'm done with school)
+- [ ] **Earn a Certificate** (6 months to 2 years, specific job skills)
+- [ ] **Transfer Track** (knock out gen eds, then transfer to university)
 
 ### What I Want to Study:
 1. ___________________________
@@ -50,11 +50,11 @@ permalink: /section1/community-college/
 *In case I need flexibility*
 
 ### Things to Check Out:
-□ Do they have the programs I'm interested in?
-□ What's the cost per credit?
-□ Can I get financial aid?
-□ Do credits transfer if I change my mind?
-□ What's the job placement rate for graduates?
+- [ ] Do they have the programs I'm interested in?
+- [ ] What's the cost per credit?
+- [ ] Can I get financial aid?
+- [ ] Do credits transfer if I change my mind?
+- [ ] What's the job placement rate for graduates?
 
 ---
 
@@ -62,31 +62,31 @@ permalink: /section1/community-college/
 
 ### **Senior Year Fall**
 **August - September**
-□ **Get application fee waivers** (most community colleges don't charge anyway)
-□ **Fill out applications** (usually super easy online)
-□ **Get transcripts sent**
+- [ ] **Get application fee waivers** (most community colleges don't charge anyway)
+- [ ] **Fill out applications** (usually super easy online)
+- [ ] **Get transcripts sent**
 
 **October - December**
-□ **Take placement tests** if needed (brush up on math!)
-□ **Get FAFSA ID** (you + parent)
-□ **Visit campuses** (they're usually close by)
+- [ ] **Take placement tests** if needed (brush up on math!)
+- [ ] **Get FAFSA ID** (you + parent)
+- [ ] **Visit campuses** (they're usually close by)
 
 ### **Spring Semester**
 **January - March**
-□ **FAFSA time** - do it early for best aid
-□ **Apply for scholarships** (yes, community colleges have them too)
-□ **Meet with an advisor** (plan your classes)
+- [ ] **FAFSA time** - do it early for best aid
+- [ ] **Apply for scholarships** (yes, community colleges have them too)
+- [ ] **Meet with an advisor** (plan your classes)
 
 **April - May**
-□ **Accept admission** 
-□ **Register for orientation**
-□ **Plan your schedule**
+- [ ] **Accept admission** 
+- [ ] **Register for orientation**
+- [ ] **Plan your schedule**
 
 ### **Summer Before Starting**
-□ **Attend orientation** (meet people, learn the ropes)
-□ **Register for classes**
-□ **Buy books** (or rent them, or find them used)
-□ **Figure out transportation**
+- [ ] **Attend orientation** (meet people, learn the ropes)
+- [ ] **Register for classes**
+- [ ] **Buy books** (or rent them, or find them used)
+- [ ] **Figure out transportation**
 
 ---
 
@@ -112,11 +112,11 @@ permalink: /section1/community-college/
 
 **Smart move! Here's how to not mess it up:**
 
-□ **Check transfer agreements** (which universities accept credits)
-□ **Meet with transfer counselor** (they know the system)
-□ **Keep your GPA up** (aim for 3.0 or higher)
-□ **Take the right classes** (don't waste time on stuff that won't transfer)
-□ **Stay organized** (keep track of requirements)
+- [ ] **Check transfer agreements** (which universities accept credits)
+- [ ] **Meet with transfer counselor** (they know the system)
+- [ ] **Keep your GPA up** (aim for 3.0 or higher)
+- [ ] **Take the right classes** (don't waste time on stuff that won't transfer)
+- [ ] **Stay organized** (keep track of requirements)
 
 **Transfer Timeline:**
 - **Sophomore year:** Start researching universities
