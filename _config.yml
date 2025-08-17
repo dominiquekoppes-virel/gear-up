@@ -78,6 +78,11 @@ back_to_top_text: "Back to top"
 compress_html:
   clippings: all
   comments: all
+
+  # Add this line to your existing _config.yml
+sass:
+  load_paths:
+    - _sass
   endings: all
   startings: []
   blanklines: false
