@@ -11,40 +11,40 @@ permalink: /section1/
 {: .label .label-red }
 **What's your energy for life after high school?**
 
-### **[U] University Life**  
-{: .label .label-blue }
-*4-year degree, campus experience, probably some debt*  
-→ [Go to University Guide](university/)
+<a href="university/" class="label label-blue">
+<h3><strong>[U] University Life</strong></h3>
+<p><em>4-year degree, campus experience, probably some debt</em></p>
+</a>
 
-### **[T] Community College → Transfer**  
-{: .label .label-green }
-*Smart money move, then transfer to university*  
-→ [Go to Transfer Guide](../section2/transfer/)
+<a href="../section2/transfer/" class="label label-green">
+<h3><strong>[T] Community College → Transfer</strong></h3>
+<p><em>Smart money move, then transfer to university</em></p>
+</a>
 
-### **[C] Community College (Associate/Certificate)**  
-{: .label .label-yellow }
-*2 years max, specific skills, less debt*  
-→ [Go to Community College Guide](community-college/)
+<a href="community-college/" class="label label-yellow">
+<h3><strong>[C] Community College (Associate/Certificate)</strong></h3>
+<p><em>2 years max, specific skills, less debt</em></p>
+</a>
 
-### **[TR] Trade/Technical School**  
-{: .label .label-blue }
-*Learn something hands-on, get paid faster*  
-→ [Go to Trade School Guide](trade-school/)
+<a href="trade-school/" class="label label-blue">
+<h3><strong>[TR] Trade/Technical School</strong></h3>
+<p><em>Learn something hands-on, get paid faster</em></p>
+</a>
 
-### **[W] Work/Apprenticeship**  
-{: .label .label-green }
-*Start earning now, learn on the job*  
-→ [Go to Workforce Guide](workforce/)
+<a href="workforce/" class="label label-green">
+<h3><strong>[W] Work/Apprenticeship</strong></h3>
+<p><em>Start earning now, learn on the job</em></p>
+</a>
 
-### **[M] Military**  
-{: .label .label-red }
-*Serve, travel, get training + college money*  
-→ [Go to Military Guide](military/)
+<a href="military/" class="label label-red">
+<h3><strong>[M] Military</strong></h3>
+<p><em>Serve, travel, get training + college money</em></p>
+</a>
 
-### **[?] Still Figuring It Out**  
-{: .label .label-yellow }
-*That's totally fine - let's explore*  
-→ [Go to Decision-Making Guide](../section8/)
+<a href="../section8/" class="label label-yellow">
+<h3><strong>[?] Still Figuring It Out</strong></h3>
+<p><em>That's totally fine - let's explore</em></p>
+</a>
 
 ---
 
