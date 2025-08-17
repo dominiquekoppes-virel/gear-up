@@ -66,7 +66,7 @@ permalink: /
   </div>
 
   <div class="pathway-card">
-    <span class="pathway-icon">🇺🇸</span>
+    <span class="pathway-icon">🎖️</span>
     <h4><strong>[M]</strong> Military</h4>
     <p>Armed forces service</p>
     <p><em>Best if:</em> You want structure, training, and education benefits</p>
