@@ -25,12 +25,12 @@ permalink: /section1/military/
 
 **Each branch has different cultures and opportunities:**
 
-□ **Army** - Largest branch, most job options, ground-focused
-□ **Navy** - Ships, submarines, technical training
-□ **Air Force** - Technology-focused, often good quality of life
-□ **Marines** - Elite, intense training, smaller and tight-knit
-□ **Coast Guard** - Homeland security, rescue operations
-□ **Space Force** - Newest branch, space and cyber operations
+- [ ] **Army** - Largest branch, most job options, ground-focused
+- [ ] **Navy** - Ships, submarines, technical training
+- [ ] **Air Force** - Technology-focused, often good quality of life
+- [ ] **Marines** - Elite, intense training, smaller and tight-knit
+- [ ] **Coast Guard** - Homeland security, rescue operations
+- [ ] **Space Force** - Newest branch, space and cyber operations
 
 ### What I'm Most Interested In:
 **Branch:** _______________________  
@@ -42,14 +42,14 @@ permalink: /section1/military/
 
 **The military isn't just combat - there are hundreds of jobs:**
 
-□ **Technology** (cyber, communications, electronics)
-□ **Healthcare** (medic, dental, mental health)
-□ **Aviation** (pilot, mechanic, air traffic control)
-□ **Engineering** (construction, utilities, mechanics)
-□ **Intelligence** (analysis, language, security)
-□ **Logistics** (supply, transportation, administration)
-□ **Law Enforcement** (military police, security)
-□ **Other:** _________________________________
+- [ ] **Technology** (cyber, communications, electronics)
+- [ ] **Healthcare** (medic, dental, mental health)
+- [ ] **Aviation** (pilot, mechanic, air traffic control)
+- [ ] **Engineering** (construction, utilities, mechanics)
+- [ ] **Intelligence** (analysis, language, security)
+- [ ] **Logistics** (supply, transportation, administration)
+- [ ] **Law Enforcement** (military police, security)
+- [ ] **Other:** _________________________________
 
 ### Jobs I Want to Learn About:
 1. ___________________________
@@ -62,26 +62,26 @@ permalink: /section1/military/
 
 ### **Senior Year Fall**
 **September - November**
-□ **Talk to recruiters** (all branches, compare options)
-□ **Take the ASVAB** (military aptitude test)
-□ **Research job fields** that interest you
-□ **Consider ROTC** programs if you want to be an officer
+- [ ] **Talk to recruiters** (all branches, compare options)
+- [ ] **Take the ASVAB** (military aptitude test)
+- [ ] **Research job fields** that interest you
+- [ ] **Consider ROTC** programs if you want to be an officer
 
 ### **Winter/Spring**
 **December - March**
-□ **Discuss Delayed Entry Program** with recruiter
-□ **Choose your job field** (if possible)
-□ **Complete physical exam** at MEPS
-□ **Finalize contract details**
+- [ ] **Discuss Delayed Entry Program** with recruiter
+- [ ] **Choose your job field** (if possible)
+- [ ] **Complete physical exam** at MEPS
+- [ ] **Finalize contract details**
 
 **April - May**
-□ **Sign your contract** (read everything carefully)
-□ **Prepare for basic training**
+- [ ] **Sign your contract** (read everything carefully)
+- [ ] **Prepare for basic training**
 
 ### **After Graduation**
-□ **Ship out to basic training** (6-16 weeks depending on branch)
-□ **Complete technical training** (learn your specific job)
-□ **Get assigned to first duty station**
+- [ ] **Ship out to basic training** (6-16 weeks depending on branch)
+- [ ] **Complete technical training** (learn your specific job)
+- [ ] **Get assigned to first duty station**
 
 ---
 
@@ -89,13 +89,13 @@ permalink: /section1/military/
 
 **Recruiters want to help, but ask good questions:**
 
-□ What jobs am I qualified for with my ASVAB score?
-□ Can you guarantee my job field in writing?
-□ Where will I likely be stationed?
-□ What education benefits do I get?
-□ What happens if I get injured?
-□ Can I visit a base before I decide?
-□ What's the real day-to-day life like?
+- [ ] What jobs am I qualified for with my ASVAB score?
+- [ ] Can you guarantee my job field in writing?
+- [ ] Where will I likely be stationed?
+- [ ] What education benefits do I get?
+- [ ] What happens if I get injured?
+- [ ] Can I visit a base before I decide?
+- [ ] What's the real day-to-day life like?
 
 {: .warning }
 **Remember:** If it's not in writing in your contract, it's not guaranteed.
@@ -164,12 +164,12 @@ permalink: /section1/military/
 
 **Veterans often have advantages:**
 
-□ **College paid for** through GI Bill
-□ **Job preference** for government positions
-□ **Skills and training** from military experience
-□ **Leadership experience** valued by employers
-□ **Network** of fellow veterans
-□ **Discipline and work ethic** that employers respect
+- [ ] **College paid for** through GI Bill
+- [ ] **Job preference** for government positions
+- [ ] **Skills and training** from military experience
+- [ ] **Leadership experience** valued by employers
+- [ ] **Network** of fellow veterans
+- [ ] **Discipline and work ethic** that employers respect
 
 ---
 
@@ -192,11 +192,11 @@ permalink: /section1/military/
 
 **Be honest about what you want:**
 
-□ Am I okay with following orders and military structure?
-□ Can I handle being away from family for extended periods?
-□ Do I want the discipline and challenge of military life?
-□ Am I interested in serving my country?
-□ Do the benefits (education, training, travel) appeal to me?
+- [ ] Am I okay with following orders and military structure?
+- [ ] Can I handle being away from family for extended periods?
+- [ ] Do I want the discipline and challenge of military life?
+- [ ] Am I interested in serving my country?
+- [ ] Do the benefits (education, training, travel) appeal to me?
 
 ---
 
