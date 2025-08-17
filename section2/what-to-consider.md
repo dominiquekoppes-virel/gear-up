@@ -30,19 +30,19 @@ Are you looking for certain sports programs, clubs, or student organizations? Ke
 ## Other Things to Consider:
 
 **The Money Stuff:**
-• **Tuition and fees** (the big scary number)
-• **Housing availability and cost** (dorms vs. apartments)
-• **Transportation availability and cost** (can you get around without a car?)
+- **Tuition and fees** (the big scary number)
+- **Housing availability and cost** (dorms vs. apartments)
+- **Transportation availability and cost** (can you get around without a car?)
 
 **The Practical Stuff:**
-• **Length, time and location of classes**
-• **Percentage of students who return the following year** (if lots of people transfer out, that's a red flag)
-• **School facilities and equipment**
-• **School or program reputation**
-• **Support services** (meals, counseling, job placement)
-• **Tutoring and academic support services**
-• **Campus safety**
-• **Faculty experience and expertise**
+- **Length, time and location of classes**
+- **Percentage of students who return the following year** (if lots of people transfer out, that's a red flag)
+- **School facilities and equipment**
+- **School or program reputation**
+- **Support services** (meals, counseling, job placement)
+- **Tutoring and academic support services**
+- **Campus safety**
+- **Faculty experience and expertise**
 
 ## What Success Looks Like
 
@@ -62,13 +62,13 @@ This is the percentage of students that successfully obtain a Bachelor's degree 
 
 **For each school you're seriously considering:**
 
-□ **Tuition per year:** $__________
-□ **Room & board per year:** $__________
-□ **Total estimated cost:** $__________
-□ **Graduation rate:** _________%
-□ **Average debt at graduation:** $__________
-□ **Job placement rate:** _________%
-□ **Average starting salary for my major:** $__________
+- [ ] **Tuition per year:** $__________
+- [ ] **Room & board per year:** $__________
+- [ ] **Total estimated cost:** $__________
+- [ ] **Graduation rate:** _________%
+- [ ] **Average debt at graduation:** $__________
+- [ ] **Job placement rate:** _________%
+- [ ] **Average starting salary for my major:** $__________
 
 **Questions to ask yourself:**
 □ Can I actually afford this (with financial aid)?
