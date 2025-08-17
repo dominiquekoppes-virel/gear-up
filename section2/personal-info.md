@@ -182,13 +182,13 @@ _________________________________________________
 ## Family Information and Other Personal Information
 
 **Has either of your parents earned a bachelor's degree or higher?**
-□ Yes    □ No
+- [ ] Yes    - [ ] No
 
 **What is the level of education parents have earned?**
 _________________________________________________
 
 **Are your parents affiliated with the US military?**
-□ Yes    □ No
+- [ ] Yes    - [ ] No
 
 ---
 
@@ -213,10 +213,10 @@ _________________________________________________
 
 **Double-check this stuff:**
 
-□ **Is your email address professional?** (hotguy2024@gmail.com is not going to impress admissions)
-□ **Are your phone numbers current?** (Colleges need to be able to reach you)
-□ **Did you spell everything correctly?** (Especially your name - it needs to match your transcript)
-□ **Do you have backup copies** of this information somewhere safe?
+- [ ] **Is your email address professional?** (hotguy2024@gmail.com is not going to impress admissions)
+- [ ] **Are your phone numbers current?** (Colleges need to be able to reach you)
+- [ ] **Did you spell everything correctly?** (Especially your name - it needs to match your transcript)
+- [ ] **Do you have backup copies** of this information somewhere safe?
 
 **Questions/Things I Still Need to Find Out:**
 
