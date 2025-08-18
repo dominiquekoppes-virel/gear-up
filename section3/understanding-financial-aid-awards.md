@@ -200,6 +200,7 @@ Congratulations! You've been accepted to college and received your financial aid
 | **Loans Offered** | $5,500 | $7,500 | $5,500 |
 | **Work-Study** | $2,000 | $1,500 | $0 |
 | **Out-of-Pocket** | $2,500 | $3,000 | $4,500 |
+{: .dark-table}
 
 ### Consider Beyond Just Money
 - **Academic program quality** in your major
