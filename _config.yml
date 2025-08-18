@@ -23,8 +23,8 @@ nav_sort: case_insensitive
 # Footer
 footer_content: "Created for Minnesota seniors. Questions? Ask your GEAR UP coordinator."
 
-# Color scheme - much more engaging than default
-color_scheme: custom
+# Color scheme - use plain CSS instead of SCSS
+# color_scheme: custom
 
 # Enable copy button on code blocks
 enable_copy_code_button: true
