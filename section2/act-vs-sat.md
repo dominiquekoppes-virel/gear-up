@@ -16,6 +16,7 @@ permalink: /section2/act-vs-sat/
 | **Aspect** | **ACT** | **SAT** |
 |------------|---------|---------|
 | **Total Time** | 2 hours, 55 minutes (without writing)<br>3 hours, 35 minutes (with writing) | 3 hours (without essay)<br>3 hours, 50 minutes (with essay) |
+{: .dark-table}
 
 ### Subjects and Time (in order they appear on test)
 
