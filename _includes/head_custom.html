@@ -190,4 +190,163 @@
     background-color: var(--gear-red) !important;
     color: white !important;
   }
+  
+  /* Pathway Cards Grid */
+  .pathway-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+  }
+  
+  .pathway-card {
+    background: var(--gear-bg-secondary);
+    border: 1px solid var(--gear-border);
+    border-radius: 12px;
+    padding: 1.5rem;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .pathway-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(239, 68, 68, 0.2);
+    border-color: var(--gear-red);
+    background: linear-gradient(135deg, var(--gear-bg-secondary), rgba(239, 68, 68, 0.05));
+  }
+  
+  .pathway-card .pathway-icon {
+    font-size: 2.5rem;
+    display: block;
+    margin-bottom: 1rem;
+  }
+  
+  .pathway-card h4 {
+    color: var(--gear-red) !important;
+    margin-bottom: 0.5rem;
+    font-size: 1.25rem;
+  }
+  
+  .pathway-card p {
+    color: var(--gear-text-muted);
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+  }
+  
+  .pathway-card p em {
+    color: var(--gear-text);
+    font-style: normal;
+    font-weight: 500;
+  }
+  
+  .pathway-card .btn {
+    margin-top: 1rem;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Section Cards */
+  .section-card {
+    background: var(--gear-bg-secondary);
+    border-left: 3px solid var(--gear-red);
+    padding: 1rem 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 0 8px 8px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .section-card:hover {
+    background: linear-gradient(90deg, rgba(239, 68, 68, 0.1), var(--gear-bg-secondary));
+  }
+  
+  .section-card p {
+    margin: 0;
+    flex: 1;
+  }
+  
+  .section-card .btn {
+    margin-left: 1rem;
+    white-space: nowrap;
+  }
+  
+  /* Quick Links Grid */
+  .quick-links-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    margin: 2rem 0;
+  }
+  
+  .quick-link-card {
+    background: var(--gear-bg-secondary);
+    border: 1px solid var(--gear-border);
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .quick-link-card:hover {
+    border-color: var(--gear-red);
+    background: rgba(239, 68, 68, 0.05);
+  }
+  
+  .quick-link-card p {
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    color: var(--gear-text);
+  }
+  
+  .quick-link-card .btn {
+    width: 100%;
+  }
+  
+  /* Symbol Grid (for Section 1) */
+  .symbol-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+    margin: 2rem 0;
+  }
+  
+  .symbol-card {
+    background: var(--gear-bg-secondary);
+    border: 1px solid var(--gear-border);
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .symbol-badge {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    background: var(--gear-red);
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .pathway-grid {
+      grid-template-columns: 1fr;
+    }
+    
+    .section-card {
+      flex-direction: column;
+      align-items: stretch;
+    }
+    
+    .section-card .btn {
+      margin: 1rem 0 0 0;
+      width: 100%;
+    }
+    
+    .quick-links-grid {
+      grid-template-columns: 1fr;
+    }
+  }
 </style>
