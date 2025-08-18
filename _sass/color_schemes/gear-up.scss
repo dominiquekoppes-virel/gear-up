@@ -58,6 +58,20 @@ $nav-width-md: 248px;
 $nav-list-item-height: 3rem;
 $nav-list-item-height-sm: 2rem;
 
+// Additional overrides for complete dark theme
+$header-background-color: #0a0a0a;
+$nav-background-color: #1a1a1a;
+$main-background-color: #0a0a0a;
+$content-background-color: #0a0a0a;
+
+// Ensure search components are dark
+$search-results-background-color: #1a1a1a;
+$search-overlay-background-color: rgba(10, 10, 10, 0.95);
+
+// Override any white defaults
+$white: #0a0a0a;
+$body-background: #0a0a0a;
+
 // Specific overrides
 $search-active-color: $red-500;
 $search-result-title-color: $grey-dk-000;
