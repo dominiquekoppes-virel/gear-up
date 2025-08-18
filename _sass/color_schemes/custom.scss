@@ -685,8 +685,18 @@ button:focus, input:focus, a:focus {
   min-height: 70px !important;
   display: flex !important;
   align-items: center !important;
+  justify-content: space-between !important;
   width: 100% !important;
   margin: 0 !important;
+}
+
+/* Header content wrapper */
+.site-header > div,
+.site-header .site-header-wrap {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  width: 100% !important;
 }
 
 /* Site title */
@@ -714,8 +724,9 @@ button:focus, input:focus, a:focus {
   font-size: 1.25rem !important;
   font-weight: 600 !important;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) !important;
-  margin-left: auto !important;
-  margin-right: 16px !important;
+  flex: 1 !important;
+  text-align: center !important;
+  margin: 0 20px !important;
 }
 
 /* Navigation buttons */
