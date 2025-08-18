@@ -143,6 +143,7 @@ Scholarships are basically free money for college that you don't have to pay bac
 | Local Bank Scholarship | $1,000 | March 15 | Essay, transcript | Applied | Heard back by April 1 |
 | University Merit Award | $2,500 | Feb 1 | Automatic | Pending | Based on GPA |
 | STEM Women Scholarship | $1,500 | Jan 30 | Essay, rec letter | In progress | Need teacher rec |
+{: .dark-table}
 
 ### The Numbers Game
 **Apply strategically:**
