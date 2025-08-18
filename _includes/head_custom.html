@@ -1,0 +1,74 @@
+<!-- Custom styles for GEAR UP theme -->
+<style>
+  /* Red theme colors */
+  :root {
+    --gear-red: #ef4444;
+    --gear-red-dark: #dc2626;
+    --gear-red-light: #fca5a5;
+  }
+  
+  /* Make the site title red */
+  .site-title {
+    color: var(--gear-red) !important;
+    font-weight: 700 !important;
+  }
+  
+  /* Red headings */
+  .main-content h1,
+  .main-content h2 {
+    color: var(--gear-red) !important;
+  }
+  
+  .main-content h1 {
+    border-bottom: 2px solid var(--gear-red);
+    padding-bottom: 0.5rem;
+  }
+  
+  /* Red links */
+  .main-content a {
+    color: var(--gear-red);
+  }
+  
+  .main-content a:hover {
+    color: var(--gear-red-dark);
+  }
+  
+  /* Style buttons */
+  .btn-primary {
+    background-color: var(--gear-red);
+    border-color: var(--gear-red);
+  }
+  
+  .btn-primary:hover {
+    background-color: var(--gear-red-dark);
+    border-color: var(--gear-red-dark);
+  }
+  
+  /* Navigation active state */
+  .nav-list-link.active {
+    background-image: linear-gradient(90deg, rgba(239, 68, 68, 0.1) 0%, transparent 100%);
+    border-left: 3px solid var(--gear-red);
+  }
+  
+  /* Site header border */
+  .site-header {
+    border-bottom: 2px solid var(--gear-red);
+  }
+  
+  /* Code blocks */
+  .main-content code {
+    background-color: rgba(239, 68, 68, 0.1);
+    color: var(--gear-red-dark);
+  }
+  
+  /* Tables */
+  .main-content table thead th {
+    background-color: rgba(239, 68, 68, 0.1);
+    border-bottom: 2px solid var(--gear-red);
+  }
+  
+  /* Blockquotes */
+  .main-content blockquote {
+    border-left: 4px solid var(--gear-red);
+  }
+</style>
