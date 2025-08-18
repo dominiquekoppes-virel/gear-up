@@ -16,7 +16,7 @@ permalink: /
 
 {: .warning }
 > **🔥 Ready to Get Started?**  
-> Not sure where to begin? Take our quick assessment to find your best path forward.  
+> Not sure where to begin?  
 > 
 > <a href="section8/" class="btn btn-primary">Start Decision Guide</a>
 > <a href="#pathway-options" class="btn">Explore All Paths</a>
