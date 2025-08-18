@@ -133,6 +133,7 @@ The FAFSA asks for specific financial information about you and your family. Hav
 | W-2 Forms | ☐ | ☐ | ☐ |
 | Investment Records | ☐ | ☐ | ☐ |
 | Untaxed Income Records | ☐ | ☐ | ☐ |
+{: .dark-table}
 
 ### Parent Documents Status
 
@@ -144,6 +145,7 @@ The FAFSA asks for specific financial information about you and your family. Hav
 | Parent Investment Records | ☐ | ☐ | ☐ |
 | Business/Farm Records | ☐ | ☐ | ☐ |
 | Untaxed Income Records | ☐ | ☐ | ☐ |
+{: .dark-table}
 
 ---
 
