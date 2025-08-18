@@ -1,1 +1,76 @@
+<!-- Simplified header with only the main title -->
+<style>
+/* Additional CSS to ensure header stickiness and proper display */
+.site-header {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 3000 !important;
+  background: #0a0a0a !important;
+  border-bottom: 3px solid #ef4444 !important;
+  box-shadow: 0 3px 20px rgba(239, 68, 68, 0.6) !important;
+}
+
+/* Ensure the header title is properly styled and centered */
+.header-title {
+  display: block !important;
+  width: 100% !important;
+  text-align: center !important;
+  color: #ef4444 !important;
+  font-size: 2.25rem !important;
+  font-weight: 700 !important;
+  text-shadow: 0 2px 8px rgba(239, 68, 68, 0.8) !important;
+  letter-spacing: -0.025em !important;
+  margin: 0 !important;
+  padding: 20px 0 !important;
+  transition: all 0.3s ease !important;
+}
+
+.header-title:hover {
+  color: #ff6b6b !important;
+  text-shadow: 0 2px 12px rgba(239, 68, 68, 1) !important;
+}
+
+/* Hide all auxiliary navigation and search elements */
+.aux-nav,
+.site-header .aux-nav,
+.aux-links,
+.header-nav,
+.site-nav,
+.search,
+.search-input,
+#search-input,
+.search-results,
+#search-results,
+.site-header .search,
+.search-container,
+[class*="search"] {
+  display: none !important;
+}
+
+/* Ensure header layout is clean and centered */
+.site-header .main-content-wrap {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Force site title to be centered if it exists */
+.site-title {
+  text-align: center !important;
+  width: 100% !important;
+  margin: 0 !important;
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 768px) {
+  .header-title {
+    font-size: 1.75rem !important;
+    padding: 15px 0 !important;
+  }
+}
+</style>
+
 <div class="header-title">GEAR UP Launch Guide</div>
