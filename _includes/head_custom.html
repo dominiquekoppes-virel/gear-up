@@ -1,7 +1,19 @@
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  // Find the header and add the title in the right place
+  // Remove search functionality completely
+  const searchInput = document.querySelector('.search-input');
+  const searchForm = document.querySelector('.search');
   const auxNav = document.querySelector('.site-header .aux-nav');
+  
+  // Hide search elements
+  if (searchInput) {
+    searchInput.style.display = 'none';
+  }
+  if (searchForm) {
+    searchForm.style.display = 'none';
+  }
+  
+  // Find the header and add the title in the right place
   if (auxNav) {
     const title = document.createElement('div');
     title.className = 'header-title';
@@ -13,10 +25,11 @@ document.addEventListener('DOMContentLoaded', function() {
       text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) !important;
       margin-right: 20px !important;
       white-space: nowrap !important;
+      flex-grow: 1 !important;
     `;
     
-    // Insert the title right before the aux-nav buttons
-    auxNav.parentNode.insertBefore(title, auxNav);
+    // Insert the title at the beginning of aux-nav
+    auxNav.insertBefore(title, auxNav.firstChild);
   }
 });
 </script>
