@@ -1,1 +1,22 @@
-
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Find the header and add the title in the right place
+  const auxNav = document.querySelector('.site-header .aux-nav');
+  if (auxNav) {
+    const title = document.createElement('div');
+    title.className = 'header-title';
+    title.textContent = 'GEAR UP Launch Guide';
+    title.style.cssText = `
+      color: #ef4444 !important;
+      font-size: 1.25rem !important;
+      font-weight: 600 !important;
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) !important;
+      margin-right: 20px !important;
+      white-space: nowrap !important;
+    `;
+    
+    // Insert the title right before the aux-nav buttons
+    auxNav.parentNode.insertBefore(title, auxNav);
+  }
+});
+</script>
