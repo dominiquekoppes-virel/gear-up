@@ -140,6 +140,7 @@ As you begin the college application process, apply to a variety of colleges, in
 | | | | | |
 | | | | | |
 | | | | | |
+{: .dark-table}
 
 | **Date Sent Test Scores** | **College Acceptance Yes or No** | **Communication to Colleges and Dates** | **Financial Award Letter Received and Reviewed Yes or No** |
 |---------------------------|----------------------------------|------------------------------------------|-----------------------------------------------------------|
@@ -148,6 +149,7 @@ As you begin the college application process, apply to a variety of colleges, in
 | | | | |
 | | | | |
 | | | | |
+{: .dark-table}
 
 ---
 
