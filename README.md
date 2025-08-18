@@ -38,7 +38,7 @@ permalink: /
     <h4><strong>[T]</strong> Transfer</h4>
     <p>Community college → University</p>
     <p><em>Best if:</em> You want to save money and need time to prepare</p>
-    <a href="section2/transfer/" class="btn btn-primary">Learn More</a>
+    <a href="section2/transfer-options/" class="btn btn-primary">Learn More</a>
   </div>
 
   <div class="pathway-card">
@@ -93,7 +93,7 @@ permalink: /
 - **[Section 7: Workforce Entry](section7/)** - Jobs, apprenticeships, and career building
 
 ### 📖 **Reference Tools**
-- **[Section 9: Glossary](section9/)** - Understand all the terms (no confusing jargon!)
+- **[Section 9: Glossary](section9.html/)** - Understand all the terms (no confusing jargon!)
 
 ---
 
