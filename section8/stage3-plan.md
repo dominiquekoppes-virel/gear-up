@@ -25,6 +25,7 @@ This stage is about understanding the practical steps needed to pursue careers t
 | **Bachelor's Degree** | Four-year college degree | University or college | 4 years full-time | $10,000-50,000/year |
 | **Apprenticeship** | Paid on-the-job training | Employer or union program | 1-5 years | Paid while learning |
 | **Professional Degree** | Specialized advanced training | Professional school (after bachelor's) | 2-4 additional years | $20,000-80,000/year |
+{: .dark-table}
 
 ---
 
@@ -273,6 +274,7 @@ _________________________________________________
 | **Student Loan Debt** | $ ____________ | $ ____________ | $ ____________ |
 | **Job Security** | ____________ | ____________ | ____________ |
 | **Work-Life Balance** | ____________ | ____________ | ____________ |
+{: .dark-table}
 
 ### Calculate Return on Investment:
 **For each path, estimate 10-year earnings minus education costs:**
