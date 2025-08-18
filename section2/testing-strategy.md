@@ -86,6 +86,7 @@ https://fairtest.org/test-optional-list/
 | | | | |
 | | | | |
 | | | | |
+{: .dark-table}
 
 **Should I retake? (Check all that apply):**
 
