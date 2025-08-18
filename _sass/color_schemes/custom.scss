@@ -28,6 +28,35 @@ body {
 }
 
 // ============================================================================
+// HEADER STYLES - BLACK HEADER, NO SEARCH
+// ============================================================================
+.site-header {
+  background: $bg-primary !important;
+  border-bottom: 1px solid $border-color !important;
+  color: $text-primary !important;
+  padding: 1rem 0 !important;
+  
+  .main-content-wrap {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    background: transparent !important;
+    margin: 0 !important;
+    padding: 0 2rem !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    border: none !important;
+  }
+}
+
+// Hide search completely
+.search,
+.search-input,
+.search-button {
+  display: none !important;
+}
+
+// ============================================================================
 // LAYOUT - MAIN CONTENT
 // ============================================================================
 .main-content-wrap {
@@ -74,7 +103,6 @@ body {
     }
   }
 }
-
 
 // ============================================================================
 // FORCE SIDEBAR TO BE DARK
@@ -512,7 +540,7 @@ a.label, .label a {
   background: rgba(251, 146, 60, 0.15) !important;
   border: 1px solid rgba(251, 146, 60, 0.3) !important;
   border-radius: 12px !important;
-  padding: 1.5rem !important;
+  padding: 1.5rem 0 !important;
   margin: 1.5rem 0 !important;
   color: #fdba74 !important;
   border-left: 4px solid #f97316 !important;
@@ -568,46 +596,40 @@ input[type="checkbox"] {
 }
 
 .search-input {
-  border-radius: 12px !important;
-  border: 1px solid rgba($border-color, 0.5) !important;
-  padding: 12px 20px !important;
-  transition: all 0.3s ease !important;
-  background: rgba($bg-primary, 0.8) !important;
-  color: $text-secondary !important;
-  
-  &:focus {
-    border-color: $red-light !important;
-    box-shadow: 0 0 0 3px rgba($red-light, 0.2) !important;
-    outline: none !important;
-    background: rgba($bg-primary, 0.95) !important;
-  }
-  
-  &::placeholder {
-    color: #737373 !important;
-  }
+  display: none !important; // Hide search completely
 }
 
 // ============================================================================
 // HEADER NAVIGATION
 // ============================================================================
-.aux-nav a {
-  color: rgba(255, 255, 255, 0.9) !important;
-  text-decoration: none !important;
-  padding: 8px 16px !important;
-  border-radius: 8px !important;
-  background: rgba(255, 255, 255, 0.1) !important;
-  transition: all 0.3s ease !important;
-  margin-left: 12px !important;
-  font-size: 0.9rem !important;
-  font-weight: 500 !important;
-  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+.aux-nav {
+  display: flex !important;
+  align-items: center !important;
+  gap: 1rem !important;
   
-  &:hover {
-    background: rgba($red-light, 0.3) !important;
-    transform: translateY(-2px) !important;
-    box-shadow: 0 6px 16px rgba($red-light, 0.4) !important;
-    border-color: rgba($red-light, 0.5) !important;
+  a {
+    color: rgba(255, 255, 255, 0.9) !important;
+    text-decoration: none !important;
+    padding: 8px 16px !important;
+    border-radius: 8px !important;
+    background: rgba(255, 255, 255, 0.1) !important;
+    transition: all 0.3s ease !important;
+    font-size: 0.9rem !important;
+    font-weight: 500 !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    
+    &:hover {
+      background: rgba($red-light, 0.3) !important;
+      transform: translateY(-2px) !important;
+      box-shadow: 0 6px 16px rgba($red-light, 0.4) !important;
+      border-color: rgba($red-light, 0.5) !important;
+    }
   }
+}
+
+.header-title {
+  flex-grow: 1 !important;
+  text-align: center !important;
 }
 
 // ============================================================================
@@ -650,6 +672,10 @@ input[type="checkbox"] {
   .navigation-list-item > a {
     margin: 2px 12px !important;
     padding: 10px 16px !important;
+  }
+  
+  .header-title {
+    font-size: 1rem !important;
   }
 }
 
