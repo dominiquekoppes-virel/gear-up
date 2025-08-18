@@ -144,11 +144,4 @@ permalink: /
 
 ---
 
-## For Teachers & Counselors
-
-{: .note }
-**Teacher Dashboard** (coming soon): Track student progress, access completed worksheets, and generate summary reports for counselor meetings.
-
----
-
 *This guide was created specifically for Minnesota seniors. It's designed to be honest, practical, and actually useful for planning your next steps after graduation.*
