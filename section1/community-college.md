@@ -102,10 +102,14 @@ permalink: /section1/community-college/
 
 ### Keep Track:
 
+<div style="background-color: black; color: white; padding: 10px; border-radius: 5px;">
+
 | School | Tuition/Year | Books/Supplies | Transportation | Total |
 |--------|--------------|----------------|----------------|-------|
 | _________________ | $_______ | $_______ | $_______ | $_______ |
 | _________________ | $_______ | $_______ | $_______ | $_______ |
+
+</div>
 
 ---
 
