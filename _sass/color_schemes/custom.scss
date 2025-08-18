@@ -671,7 +671,7 @@ button:focus, input:focus, a:focus {
 }
 
 // ============================================================================
-// HEADER AND SEARCH - CLEAN VERSION (REPLACE EXISTING HEADER SECTIONS)
+// HEADER - NO SEARCH, CLEAN AND SIMPLE
 // ============================================================================
 
 // Remove the gradient background approach
@@ -680,7 +680,7 @@ body {
   background: $bg-primary !important;
 }
 
-// Main header styling - single source of truth
+// Main header styling - clean and simple
 .site-header, 
 .main-header,
 .site-header-wrap,
@@ -718,118 +718,44 @@ body {
   background: transparent !important;
 }
 
-// Search container
-.site-header .search {
-  position: relative !important;
-  margin-left: auto !important;
-  margin-right: 16px !important;
-  background: transparent !important;
-}
-
-// Search input
-.site-header .search-input,
-#search-input {
-  background: rgba(255, 255, 255, 0.1) !important;
-  border: 1px solid rgba(255, 255, 255, 0.2) !important;
-  color: white !important;
-  padding: 10px 16px !important;
-  border-radius: 6px !important;
-  font-size: 14px !important;
-  min-width: 250px !important;
-  height: 40px !important;
-  box-sizing: border-box !important;
-  
-  &::placeholder {
-    color: rgba(255, 255, 255, 0.7) !important;
-  }
-  
-  &:focus {
-    background: rgba(255, 255, 255, 0.15) !important;
-    border-color: $red-light !important;
-    box-shadow: 0 0 0 2px rgba($red-light, 0.3) !important;
-    outline: none !important;
-  }
-}
-
-// Search results dropdown
-.site-header .search-results,
-#search-results {
-  position: absolute !important;
-  top: calc(100% + 8px) !important;
-  left: 0 !important;
-  right: 0 !important;
-  background: #1a1a1a !important;
-  border: 1px solid $red-light !important;
-  border-radius: 8px !important;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.7) !important;
-  z-index: 9999 !important;
-  min-width: 250px !important;
-  max-height: 400px !important;
-  overflow-y: auto !important;
+// HIDE ALL SEARCH ELEMENTS
+.site-header .search,
+.search,
+.search-input,
+#search-input,
+.search-results,
+#search-results,
+.search-container,
+.search-wrapper {
   display: none !important;
-  margin: 0 !important;
-  padding: 0 !important;
-  list-style: none !important;
+  visibility: hidden !important;
 }
 
-// Search result items
-.site-header .search-results li,
-#search-results li {
-  list-style: none !important;
-  margin: 0 !important;
-  padding: 0 !important;
-}
-
-.site-header .search-results a,
-#search-results a {
-  display: block !important;
-  padding: 12px 16px !important;
-  color: #f1f5f9 !important;
-  text-decoration: none !important;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
-  transition: background-color 0.2s ease !important;
-  
-  &:hover {
-    background: rgba($red-light, 0.2) !important;
-    color: white !important;
-  }
-  
-  &:last-child {
-    border-bottom: none !important;
-  }
-}
-
-// No results message
-.site-header .search-results .no-results,
-#search-results .no-results {
-  padding: 16px !important;
-  color: #a3a3a3 !important;
-  text-align: center !important;
-  font-style: italic !important;
-}
-
-// Header navigation buttons
+// Header navigation buttons - give them more space now
 .site-header .aux-nav {
   display: flex !important;
   align-items: center !important;
-  gap: 12px !important;
+  gap: 16px !important;
   background: transparent !important;
+  margin-left: auto !important;
 }
 
 .site-header .aux-nav a {
   color: white !important;
   background: rgba(255, 255, 255, 0.1) !important;
   border: 1px solid rgba(255, 255, 255, 0.2) !important;
-  padding: 8px 16px !important;
+  padding: 10px 20px !important;
   border-radius: 6px !important;
   text-decoration: none !important;
   font-size: 14px !important;
+  font-weight: 500 !important;
   white-space: nowrap !important;
   transition: all 0.3s ease !important;
   
   &:hover {
     background: rgba($red-light, 0.3) !important;
     border-color: rgba($red-light, 0.5) !important;
+    transform: translateY(-1px) !important;
   }
 }
 
@@ -840,19 +766,10 @@ body {
   background-color: transparent !important;
 }
 
-// Ensure proper stacking
-.main-content-wrap {
-  position: relative !important;
-  z-index: 1 !important;
-}
-
 // Mobile responsiveness
 @media (max-width: 768px) {
   .site-header {
     padding: 12px 16px !important;
-    flex-direction: column !important;
-    align-items: stretch !important;
-    gap: 12px !important;
     min-height: auto !important;
   }
   
@@ -862,17 +779,8 @@ body {
     gap: 12px !important;
   }
   
-  .site-header .search {
-    margin: 0 !important;
-    order: -1 !important;
-  }
-  
-  .site-header .search-input,
-  #search-input {
-    min-width: 100% !important;
-  }
-  
   .site-header .aux-nav {
     justify-content: center !important;
+    margin-left: 0 !important;
   }
 }
