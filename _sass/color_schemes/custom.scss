@@ -757,3 +757,89 @@ button:focus, input:focus, a:focus {
   outline: none !important;
   box-shadow: 0 0 0 3px rgba($red-light, 0.5) !important;
 }
+
+// ============================================================================
+// SEARCH RESULTS OVERLAY (keep search, show results on top of page content)
+// ============================================================================
+
+// Make sure the header sits above content so results can anchor to it
+.site-header,
+.main-header,
+.site-header-wrap,
+.page-wrap > .site-header {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 3000 !important;
+}
+
+// Ensure page content can't cover results
+.main-content-wrap {
+  position: relative !important;
+  z-index: 1 !important;
+}
+
+// Prevent any parent from clipping the dropdown
+html, body, .page-wrap, .site-header, .main-header {
+  overflow: visible !important;
+}
+
+// Universal overlay treatment for the most common search result containers.
+// (Covers many libs/themes: DocSearch, custom dropdowns, autocomplete, etc.)
+.search-results,
+.search-results-container,
+.search-dropdown,
+.search-modal,
+.search-panel,
+.search-menu,
+.autocomplete-results,
+.autocomplete-panel,
+.DocSearch-Container,
+.DocSearch-Modal {
+  position: fixed !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  top: calc(60px + 8px) !important; // header height + a little gap
+  width: min(960px, 92vw) !important;
+  max-height: calc(100vh - 96px) !important;
+  overflow: auto !important;
+
+  z-index: 4000 !important;
+
+  // Visuals to match your theme
+  background: rgba($bg-secondary, 0.98) !important;
+  border: 1px solid rgba($red-light, 0.35) !important;
+  border-radius: 12px !important;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba($red-light, 0.15) !important;
+  backdrop-filter: blur(8px) !important;
+}
+
+// Make sure the text inside the dropdown is readable
+.search-results *,
+.search-dropdown *,
+.search-modal *,
+.search-panel *,
+.autocomplete-results *,
+.DocSearch-Modal * {
+  color: $text-secondary !important;
+}
+
+// Optional dimmer behind results (doesn't block clicks)
+.search-overlay,
+.search-backdrop,
+.DocSearch-Container::before {
+  content: '';
+  position: fixed !important;
+  inset: 0 !important;
+  background: rgba(0, 0, 0, 0.4) !important;
+  z-index: 3500 !important;
+  pointer-events: none !important;
+}
+
+// If your search list item uses a "selected/highlighted" class, keep it visible
+.search-result--active,
+.autocomplete-item[aria-selected="true"],
+.DocSearch-Hit--active {
+  background: rgba($red-light, 0.2) !important;
+  outline: 1px solid rgba($red-light, 0.5) !important;
+}
+
