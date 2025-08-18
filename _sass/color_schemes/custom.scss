@@ -731,6 +731,17 @@ body {
   visibility: hidden !important;
 }
 
+// Header title where search was
+.site-header .header-title {
+  color: $red-light !important;
+  font-size: 1.25rem !important;
+  font-weight: 600 !important;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) !important;
+  margin-left: auto !important;
+  margin-right: 16px !important;
+  background: transparent !important;
+}
+
 // Header navigation buttons - give them more space now
 .site-header .aux-nav {
   display: flex !important;
