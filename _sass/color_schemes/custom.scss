@@ -843,3 +843,112 @@ html, body, .page-wrap, .site-header, .main-header {
   outline: 1px solid rgba($red-light, 0.5) !important;
 }
 
+// ============================================================================
+// SEARCH: force results to show above page content (no deletions elsewhere)
+// ============================================================================
+
+// Make sure nothing clips the dropdown
+html, body, .page-wrap, .site-header, .main-header { overflow: visible !important; }
+
+// Raise the header and the search control
+.site-header, .main-header, .site-header-wrap, .page-wrap > .site-header {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 3000 !important;
+}
+.site-header .search { position: relative !important; z-index: 3500 !important; }
+.site-header .search-input { position: relative !important; z-index: 3501 !important; }
+
+// ⚡️ COVER COMMON RESULT CONTAINERS (Lunr/Just-the-Docs, DocSearch, custom ULs, etc.)
+.site-header .search-results,
+.site-header .search .search-results,
+.search-results,
+.search-dropdown,
+.search-panel,
+.autocomplete-results,
+.autocomplete-panel,
+.DocSearch-Container,
+.DocSearch-Modal {
+  position: absolute !important;      // anchor to header/search area
+  top: calc(100% + 8px) !important;   // just below the input
+  left: 0 !important;
+  right: 0 !important;
+
+  // Fallback if the library injects the panel outside the header:
+  // (the higher rule below will win when not a descendant of .site-header)
+}
+.search-results,
+.search-dropdown,
+.search-panel,
+.autocomplete-results,
+.autocomplete-panel,
+.DocSearch-Container,
+.DocSearch-Modal {
+  position: fixed !important;          // if inserted near <body>, pin to viewport
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  top: calc(60px + 8px) !important;    // header height; tweak if your header is taller
+  width: min(960px, 92vw) !important;
+  max-height: calc(100vh - 96px) !important;
+  overflow: auto !important;
+  z-index: 4000 !important;
+
+  // Theme it to match
+  background: rgba($bg-secondary, 0.98) !important;
+  border: 1px solid rgba($red-light, 0.35) !important;
+  border-radius: 12px !important;
+  box-shadow: 0 20px 60px rgba(0,0,0,.6), 0 0 0 1px rgba($red-light, .15) !important;
+  backdrop-filter: blur(8px) !important;
+}
+
+// 🔓 Some libs toggle visibility; override that so results actually appear
+.search-results[hidden],
+.search-dropdown[hidden],
+.search-panel[hidden],
+.autocomplete-results[hidden],
+.autocomplete-panel[hidden],
+.DocSearch-Container[hidden],
+.DocSearch-Modal[hidden] {
+  display: block !important;
+}
+
+.search-results,
+.search-dropdown,
+.search-panel,
+.autocomplete-results,
+.autocomplete-panel,
+.DocSearch-Container,
+.DocSearch-Modal {
+  opacity: 1 !important;
+  visibility: visible !important;
+  pointer-events: auto !important;
+}
+
+// Improve readability inside the panel
+.search-results *, .search-dropdown *, .search-panel *,
+.autocomplete-results *, .autocomplete-panel *,
+.DocSearch-Container *, .DocSearch-Modal * {
+  color: $text-secondary !important;
+}
+
+// Highlight active item
+.search-result--active,
+.autocomplete-item[aria-selected="true"],
+.DocSearch-Hit--active {
+  background: rgba($red-light, 0.2) !important;
+  outline: 1px solid rgba($red-light, 0.5) !important;
+}
+
+// Optional soft backdrop that doesn't steal clicks
+.search-overlay,
+.search-backdrop,
+.DocSearch-Container::before {
+  content: '';
+  position: fixed !important;
+  inset: 0 !important;
+  background: rgba(0,0,0,0.4) !important;
+  z-index: 3500 !important;
+  pointer-events: none !important;
+}
+
+
