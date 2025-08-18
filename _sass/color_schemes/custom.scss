@@ -75,94 +75,6 @@ body {
   }
 }
 
-// ============================================================================
-// CLEAN HEADER
-// ============================================================================
-
-// Remove the gradient background approach
-.page-wrap, 
-body {
-  background: $bg-primary !important;
-}
-
-// Simple black header with glowy red bottom border
-.site-header, 
-.main-header,
-.site-header-wrap,
-.page-wrap > .site-header {
-  background: #000000 !important; // Pure black
-  padding: 1rem 0 !important; // Reduced padding so content fits better
-  border-bottom: 3px solid $red-light !important;
-  box-shadow: 0 3px 20px rgba($red-light, 0.6), 0 0 40px rgba($red-light, 0.3) !important; // Glowy effect
-  position: relative !important;
-  width: 100% !important;
-  margin: 0 !important;
-  min-height: 60px !important; // Ensure enough height for content
-  display: flex !important;
-  align-items: center !important;
-}
-
-// Remove any other background styling on header children
-.site-header *,
-.main-header *,
-.site-header-wrap * {
-  background: transparent !important;
-  background-color: transparent !important;
-}
-
-// Keep header text white and visible
-.site-header .site-title {
-  color: white !important;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) !important;
-  font-weight: 700 !important;
-  font-size: 1.5rem !important; // Slightly smaller to fit better
-}
-
-// Make search bar thinner and more compact
-.site-header .search,
-.site-header .search-input {
-  height: 36px !important; // Thinner search bar
-  padding: 6px 12px !important; // Less padding
-  font-size: 0.9rem !important;
-  border-radius: 6px !important;
-  background: rgba(255, 255, 255, 0.1) !important;
-  border: 1px solid rgba(255, 255, 255, 0.2) !important;
-  color: white !important;
-  
-  &::placeholder {
-    color: rgba(255, 255, 255, 0.7) !important;
-  }
-  
-  &:focus {
-    background: rgba(255, 255, 255, 0.15) !important;
-    border-color: $red-light !important;
-    box-shadow: 0 0 0 2px rgba($red-light, 0.3) !important;
-  }
-}
-
-// Keep navigation buttons visible and styled
-.site-header .aux-nav a {
-  color: white !important;
-  background: rgba(255, 255, 255, 0.1) !important;
-  border: 1px solid rgba(255, 255, 255, 0.2) !important;
-  padding: 6px 12px !important; // Slightly smaller padding
-  border-radius: 6px !important;
-  transition: all 0.3s ease !important;
-  font-size: 0.9rem !important; // Slightly smaller text
-  white-space: nowrap !important; // Prevent text wrapping
-  
-  &:hover {
-    background: rgba($red-light, 0.3) !important;
-    border-color: rgba($red-light, 0.5) !important;
-  }
-}
-
-// Ensure aux nav container has proper spacing
-.site-header .aux-nav {
-  display: flex !important;
-  align-items: center !important;
-  gap: 8px !important; // Space between buttons
-}
 
 // ============================================================================
 // FORCE SIDEBAR TO BE DARK
@@ -759,121 +671,73 @@ button:focus, input:focus, a:focus {
 }
 
 // ============================================================================
-// SEARCH RESULTS OVERLAY (keep search, show results on top of page content)
+// HEADER AND SEARCH - CLEAN VERSION (REPLACE EXISTING HEADER SECTIONS)
 // ============================================================================
 
-// Make sure the header sits above content so results can anchor to it
-.site-header,
+// Remove the gradient background approach
+.page-wrap, 
+body {
+  background: $bg-primary !important;
+}
+
+// Main header styling - single source of truth
+.site-header, 
 .main-header,
 .site-header-wrap,
 .page-wrap > .site-header {
+  background: #000000 !important;
+  padding: 16px 24px !important;
+  border-bottom: 3px solid $red-light !important;
+  box-shadow: 0 3px 20px rgba($red-light, 0.6) !important;
   position: sticky !important;
   top: 0 !important;
   z-index: 3000 !important;
+  min-height: 70px !important;
+  display: flex !important;
+  align-items: center !important;
+  width: 100% !important;
+  margin: 0 !important;
 }
 
-// Ensure page content can't cover results
-.main-content-wrap {
-  position: relative !important;
-  z-index: 1 !important;
+// Header content layout
+.site-header > div,
+.site-header .site-header-wrap {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  width: 100% !important;
+  background: transparent !important;
 }
 
-// Prevent any parent from clipping the dropdown
-html, body, .page-wrap, .site-header, .main-header {
-  overflow: visible !important;
-}
-
-// Universal overlay treatment for the most common search result containers.
-// (Covers many libs/themes: DocSearch, custom dropdowns, autocomplete, etc.)
-.search-results,
-.search-results-container,
-.search-dropdown,
-.search-modal,
-.search-panel,
-.search-menu,
-.autocomplete-results,
-.autocomplete-panel,
-.DocSearch-Container,
-.DocSearch-Modal {
-  position: fixed !important;
-  left: 50% !important;
-  transform: translateX(-50%) !important;
-  top: calc(60px + 8px) !important; // header height + a little gap
-  width: min(960px, 92vw) !important;
-  max-height: calc(100vh - 96px) !important;
-  overflow: auto !important;
-
-  z-index: 4000 !important;
-
-  // Visuals to match your theme
-  background: rgba($bg-secondary, 0.98) !important;
-  border: 1px solid rgba($red-light, 0.35) !important;
-  border-radius: 12px !important;
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba($red-light, 0.15) !important;
-  backdrop-filter: blur(8px) !important;
-}
-
-// Make sure the text inside the dropdown is readable
-.search-results *,
-.search-dropdown *,
-.search-modal *,
-.search-panel *,
-.autocomplete-results *,
-.DocSearch-Modal * {
-  color: $text-secondary !important;
-}
-
-// Optional dimmer behind results (doesn't block clicks)
-.search-overlay,
-.search-backdrop,
-.DocSearch-Container::before {
-  content: '';
-  position: fixed !important;
-  inset: 0 !important;
-  background: rgba(0, 0, 0, 0.4) !important;
-  z-index: 3500 !important;
-  pointer-events: none !important;
-}
-
-// If your search list item uses a "selected/highlighted" class, keep it visible
-.search-result--active,
-.autocomplete-item[aria-selected="true"],
-.DocSearch-Hit--active {
-  background: rgba($red-light, 0.2) !important;
-  outline: 1px solid rgba($red-light, 0.5) !important;
-}
-
-// ============================================================================
-// HEADER SEARCH BAR - CLEAN AND WORKING
-// ============================================================================
-
-// Header container
-.site-header, 
-.main-header,
-.site-header-wrap {
-  background: #000000 !important;
-  padding: 1rem 0 !important;
-  border-bottom: 3px solid #ef4444 !important;
-  box-shadow: 0 3px 20px rgba(239, 68, 68, 0.6) !important;
-  position: relative !important;
-  z-index: 1000 !important;
+// Site title
+.site-header .site-title {
+  color: white !important;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) !important;
+  font-weight: 700 !important;
+  font-size: 1.5rem !important;
+  background: transparent !important;
 }
 
 // Search container
 .site-header .search {
   position: relative !important;
-  display: inline-block !important;
+  margin-left: auto !important;
+  margin-right: 16px !important;
+  background: transparent !important;
 }
 
 // Search input
-.site-header .search-input {
+.site-header .search-input,
+#search-input {
   background: rgba(255, 255, 255, 0.1) !important;
   border: 1px solid rgba(255, 255, 255, 0.2) !important;
   color: white !important;
-  padding: 8px 16px !important;
+  padding: 10px 16px !important;
   border-radius: 6px !important;
-  font-size: 0.9rem !important;
-  min-width: 200px !important;
+  font-size: 14px !important;
+  min-width: 250px !important;
+  height: 40px !important;
+  box-sizing: border-box !important;
   
   &::placeholder {
     color: rgba(255, 255, 255, 0.7) !important;
@@ -881,40 +745,52 @@ html, body, .page-wrap, .site-header, .main-header {
   
   &:focus {
     background: rgba(255, 255, 255, 0.15) !important;
-    border-color: #ef4444 !important;
-    box-shadow: 0 0 0 2px rgba(239, 68, 68, 0.3) !important;
+    border-color: $red-light !important;
+    box-shadow: 0 0 0 2px rgba($red-light, 0.3) !important;
     outline: none !important;
   }
 }
 
 // Search results dropdown
-.site-header .search-results {
+.site-header .search-results,
+#search-results {
   position: absolute !important;
-  top: 100% !important;
+  top: calc(100% + 8px) !important;
   left: 0 !important;
   right: 0 !important;
   background: #1a1a1a !important;
-  border: 1px solid #ef4444 !important;
-  border-radius: 6px !important;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5) !important;
-  z-index: 2000 !important;
-  margin-top: 4px !important;
+  border: 1px solid $red-light !important;
+  border-radius: 8px !important;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.7) !important;
+  z-index: 9999 !important;
   min-width: 250px !important;
-  max-height: 300px !important;
+  max-height: 400px !important;
   overflow-y: auto !important;
+  display: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  list-style: none !important;
 }
 
 // Search result items
 .site-header .search-results li,
-.site-header .search-results a {
+#search-results li {
+  list-style: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.site-header .search-results a,
+#search-results a {
   display: block !important;
-  padding: 10px 12px !important;
+  padding: 12px 16px !important;
   color: #f1f5f9 !important;
   text-decoration: none !important;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+  transition: background-color 0.2s ease !important;
   
   &:hover {
-    background: rgba(239, 68, 68, 0.2) !important;
+    background: rgba($red-light, 0.2) !important;
     color: white !important;
   }
   
@@ -923,3 +799,80 @@ html, body, .page-wrap, .site-header, .main-header {
   }
 }
 
+// No results message
+.site-header .search-results .no-results,
+#search-results .no-results {
+  padding: 16px !important;
+  color: #a3a3a3 !important;
+  text-align: center !important;
+  font-style: italic !important;
+}
+
+// Header navigation buttons
+.site-header .aux-nav {
+  display: flex !important;
+  align-items: center !important;
+  gap: 12px !important;
+  background: transparent !important;
+}
+
+.site-header .aux-nav a {
+  color: white !important;
+  background: rgba(255, 255, 255, 0.1) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  padding: 8px 16px !important;
+  border-radius: 6px !important;
+  text-decoration: none !important;
+  font-size: 14px !important;
+  white-space: nowrap !important;
+  transition: all 0.3s ease !important;
+  
+  &:hover {
+    background: rgba($red-light, 0.3) !important;
+    border-color: rgba($red-light, 0.5) !important;
+  }
+}
+
+// Clear any background overrides on header children
+.site-header *,
+.main-header *,
+.site-header-wrap * {
+  background-color: transparent !important;
+}
+
+// Ensure proper stacking
+.main-content-wrap {
+  position: relative !important;
+  z-index: 1 !important;
+}
+
+// Mobile responsiveness
+@media (max-width: 768px) {
+  .site-header {
+    padding: 12px 16px !important;
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 12px !important;
+    min-height: auto !important;
+  }
+  
+  .site-header > div,
+  .site-header .site-header-wrap {
+    flex-direction: column !important;
+    gap: 12px !important;
+  }
+  
+  .site-header .search {
+    margin: 0 !important;
+    order: -1 !important;
+  }
+  
+  .site-header .search-input,
+  #search-input {
+    min-width: 100% !important;
+  }
+  
+  .site-header .aux-nav {
+    justify-content: center !important;
+  }
+}
