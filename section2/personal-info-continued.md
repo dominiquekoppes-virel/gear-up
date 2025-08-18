@@ -22,6 +22,7 @@ permalink: /section2/personal-info-continued/
 | | | |
 | | | |
 | | | |
+{: .dark-table}
 
 **What counts as an honor or award?**
 - Academic awards (honor roll, subject-specific awards)
@@ -44,6 +45,7 @@ permalink: /section2/personal-info-continued/
 | | | | | | |
 | | | | | | |
 | | | | | | |
+{: .dark-table}
 
 **Community Service Ideas (if you need to get started):**
 - Local food bank or soup kitchen
