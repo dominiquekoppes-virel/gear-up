@@ -9,7 +9,7 @@ permalink: /
 # 🎓 GEAR UP Launch Planning Guide
 {: .fs-9 }
 
-**Your roadmap to life after high school - designed for real students, real situations**
+**A Guide for Minnesota High School Seniors**
 {: .fs-6 .fw-300 }
 
 ---
