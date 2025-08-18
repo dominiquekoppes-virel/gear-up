@@ -93,7 +93,7 @@ permalink: /
 - **[Section 7: Workforce Entry](section7/)** - Jobs, apprenticeships, and career building
 
 ### 📖 **Reference Tools**
-- **[Section 9: Glossary](section9.html/)** - Understand all the terms (no confusing jargon!)
+- **[Section 9: Glossary](section9.html)** - Understand all the terms (no confusing jargon!)
 
 ---
 
