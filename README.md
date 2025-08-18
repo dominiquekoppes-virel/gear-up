@@ -1,11 +1,11 @@
 ---
 title: Home
 nav_order: 1
-description: "Complete post-graduation planning guide for Red Lake High School seniors"
+description: "A Guide for Minnesota High School Students"
 permalink: /
 ---
 
-# 🎓 GEAR UP Red Lake Planning Guide
+# 🎓 GEAR UP Launch Planning Guide
 {: .fs-9 }
 
 **Your roadmap to life after high school - designed for real students, real situations**
@@ -151,4 +151,4 @@ permalink: /
 
 ---
 
-*This guide was created specifically for Red Lake High School seniors. It's designed to be honest, practical, and actually useful for planning your next steps after graduation.*
+*This guide was created specifically for Minnesota seniors. It's designed to be honest, practical, and actually useful for planning your next steps after graduation.*
