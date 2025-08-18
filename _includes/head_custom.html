@@ -78,6 +78,33 @@
     box-shadow: 0 2px 20px rgba(239, 68, 68, 0.3);
   }
   
+  /* Make the header area uniform black */
+  .site-header .main-header {
+    background-color: rgba(10, 10, 10, 0.95) !important;
+  }
+  
+  /* Fix the white corner */
+  .site-header::after,
+  .main-header::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 100%;
+    background: rgba(10, 10, 10, 0.95) !important;
+    z-index: -1;
+  }
+  
+  /* Ensure search area has dark background */
+  .search {
+    background-color: transparent !important;
+  }
+  
+  .search-results {
+    background-color: var(--gear-bg-secondary) !important;
+  }
+  
   /* Sexy glowing site title */
   .site-title {
     font-family: 'Bebas Neue', sans-serif !important;
@@ -162,9 +189,9 @@
   
   /* Sexy buttons with glow */
   .btn {
-    background: linear-gradient(135deg, var(--gear-bg-tertiary), var(--gear-bg-secondary)) !important;
-    color: var(--gear-text) !important;
-    border: 1px solid rgba(239, 68, 68, 0.3) !important;
+    background: rgba(0, 0, 0, 0.8) !important;
+    color: var(--gear-red) !important;
+    border: 1px solid var(--gear-red) !important;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -193,13 +220,14 @@
   .btn:hover {
     transform: translateY(-2px);
     box-shadow: 0 5px 20px rgba(239, 68, 68, 0.4) !important;
-    border-color: var(--gear-red) !important;
+    background: rgba(239, 68, 68, 0.1) !important;
+    color: var(--gear-red-light) !important;
   }
   
   .btn-primary {
-    background: linear-gradient(135deg, var(--gear-red), var(--gear-red-dark)) !important;
-    border-color: var(--gear-red) !important;
-    color: white !important;
+    background: rgba(0, 0, 0, 0.9) !important;
+    border: 1px solid var(--gear-red) !important;
+    color: var(--gear-red) !important;
     box-shadow: 0 4px 15px rgba(239, 68, 68, 0.4);
     animation: pulse-glow 2s infinite;
   }
@@ -210,9 +238,10 @@
   }
   
   .btn-primary:hover {
-    background: linear-gradient(135deg, var(--gear-red-light), var(--gear-red)) !important;
+    background: rgba(239, 68, 68, 0.15) !important;
     transform: translateY(-3px);
     box-shadow: 0 6px 30px rgba(239, 68, 68, 0.6) !important;
+    color: var(--gear-red-light) !important;
   }
   
   /* Navigation styling with hover effects */
@@ -428,7 +457,24 @@
     margin-top: 1.5rem;
     width: 100%;
     text-align: center;
-    color: white !important;
+    background: rgba(0, 0, 0, 0.9) !important;
+    color: var(--gear-red) !important;
+    border: 1px solid var(--gear-red) !important;
+  }
+  
+  .quick-link-card .btn {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.9) !important;
+    color: var(--gear-red) !important;
+    border: 1px solid var(--gear-red) !important;
+  }
+  
+  .section-card .btn {
+    margin-left: 1.5rem;
+    white-space: nowrap;
+    background: rgba(0, 0, 0, 0.9) !important;
+    color: var(--gear-red) !important;
+    border: 1px solid var(--gear-red) !important;
   }
   
   /* Sexy Section Cards */
