@@ -670,25 +670,15 @@ button:focus, input:focus, a:focus {
   box-shadow: 0 0 0 3px rgba($red-light, 0.5) !important;
 }
 
-// ============================================================================
-// HEADER - NO SEARCH, CLEAN AND SIMPLE
-// ============================================================================
-
-// Remove the gradient background approach
-.page-wrap, 
-body {
-  background: $bg-primary !important;
-}
-
-// Main header styling - clean and simple
+/* Header - Simple and Clean */
 .site-header, 
 .main-header,
 .site-header-wrap,
 .page-wrap > .site-header {
   background: #000000 !important;
   padding: 16px 24px !important;
-  border-bottom: 3px solid $red-light !important;
-  box-shadow: 0 3px 20px rgba($red-light, 0.6) !important;
+  border-bottom: 3px solid #ef4444 !important;
+  box-shadow: 0 3px 20px rgba(239, 68, 68, 0.6) !important;
   position: sticky !important;
   top: 0 !important;
   z-index: 3000 !important;
@@ -699,17 +689,7 @@ body {
   margin: 0 !important;
 }
 
-// Header content layout
-.site-header > div,
-.site-header .site-header-wrap {
-  display: flex !important;
-  align-items: center !important;
-  justify-content: space-between !important;
-  width: 100% !important;
-  background: transparent !important;
-}
-
-// Site title
+/* Site title */
 .site-header .site-title {
   color: white !important;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) !important;
@@ -718,37 +698,31 @@ body {
   background: transparent !important;
 }
 
-// HIDE ALL SEARCH ELEMENTS
+/* Hide search completely */
 .site-header .search,
 .search,
 .search-input,
 #search-input,
 .search-results,
-#search-results,
-.search-container,
-.search-wrapper {
+#search-results {
   display: none !important;
-  visibility: hidden !important;
 }
 
-// Header title where search was
+/* Header title where search was */
 .site-header .header-title {
-  color: $red-light !important;
+  color: #ef4444 !important;
   font-size: 1.25rem !important;
   font-weight: 600 !important;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) !important;
   margin-left: auto !important;
   margin-right: 16px !important;
-  background: transparent !important;
 }
 
-// Header navigation buttons - give them more space now
+/* Navigation buttons */
 .site-header .aux-nav {
   display: flex !important;
   align-items: center !important;
   gap: 16px !important;
-  background: transparent !important;
-  margin-left: auto !important;
 }
 
 .site-header .aux-nav a {
@@ -759,39 +733,10 @@ body {
   border-radius: 6px !important;
   text-decoration: none !important;
   font-size: 14px !important;
-  font-weight: 500 !important;
-  white-space: nowrap !important;
   transition: all 0.3s ease !important;
-  
-  &:hover {
-    background: rgba($red-light, 0.3) !important;
-    border-color: rgba($red-light, 0.5) !important;
-    transform: translateY(-1px) !important;
-  }
 }
 
-// Clear any background overrides on header children
-.site-header *,
-.main-header *,
-.site-header-wrap * {
-  background-color: transparent !important;
-}
-
-// Mobile responsiveness
-@media (max-width: 768px) {
-  .site-header {
-    padding: 12px 16px !important;
-    min-height: auto !important;
-  }
-  
-  .site-header > div,
-  .site-header .site-header-wrap {
-    flex-direction: column !important;
-    gap: 12px !important;
-  }
-  
-  .site-header .aux-nav {
-    justify-content: center !important;
-    margin-left: 0 !important;
-  }
+.site-header .aux-nav a:hover {
+  background: rgba(239, 68, 68, 0.3) !important;
+  border-color: rgba(239, 68, 68, 0.5) !important;
 }
