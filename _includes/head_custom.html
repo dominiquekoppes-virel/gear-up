@@ -1,21 +1,61 @@
-<!-- Custom styles for GEAR UP theme -->
+<!-- Custom styles for GEAR UP dark theme -->
 <style>
   /* Red theme colors */
   :root {
     --gear-red: #ef4444;
     --gear-red-dark: #dc2626;
     --gear-red-light: #fca5a5;
+    --gear-bg-primary: #0a0a0a;
+    --gear-bg-secondary: #1a1a1a;
+    --gear-bg-tertiary: #2a2a2a;
+    --gear-text: #e2e8f0;
+    --gear-text-muted: #94a3b8;
+    --gear-border: #333333;
   }
   
-  /* Make the site title red */
+  /* Dark background for body */
+  body {
+    background-color: var(--gear-bg-primary) !important;
+    color: var(--gear-text) !important;
+  }
+  
+  /* Dark sidebar */
+  .side-bar {
+    background-color: var(--gear-bg-secondary) !important;
+    border-right: 1px solid var(--gear-border) !important;
+  }
+  
+  /* Dark main content area */
+  .main {
+    background-color: var(--gear-bg-primary) !important;
+  }
+  
+  .main-content-wrap {
+    background-color: var(--gear-bg-primary) !important;
+  }
+  
+  .main-content {
+    color: var(--gear-text) !important;
+  }
+  
+  /* Dark header */
+  .site-header {
+    background-color: var(--gear-bg-primary) !important;
+    border-bottom: 2px solid var(--gear-red) !important;
+  }
+  
+  /* Make the site title red and glowing */
   .site-title {
     color: var(--gear-red) !important;
     font-weight: 700 !important;
+    text-shadow: 0 0 10px rgba(239, 68, 68, 0.5);
   }
   
   /* Red headings */
   .main-content h1,
-  .main-content h2 {
+  .main-content h2,
+  .main-content h3,
+  .main-content h4 {
     color: var(--gear-red) !important;
   }
   
@@ -24,51 +64,130 @@
     padding-bottom: 0.5rem;
   }
   
-  /* Red links */
-  .main-content a {
-    color: var(--gear-red);
+  /* Light text for paragraphs */
+  .main-content p,
+  .main-content li {
+    color: var(--gear-text) !important;
   }
   
-  .main-content a:hover {
-    color: var(--gear-red-dark);
+  /* Red links */
+  .main-content a,
+  a {
+    color: var(--gear-red) !important;
+  }
+  
+  .main-content a:hover,
+  a:hover {
+    color: var(--gear-red-light) !important;
+    text-decoration: underline;
   }
   
   /* Style buttons */
+  .btn {
+    background-color: var(--gear-bg-tertiary) !important;
+    color: var(--gear-text) !important;
+    border: 1px solid var(--gear-border) !important;
+  }
+  
+  .btn:hover {
+    background-color: var(--gear-bg-secondary) !important;
+  }
+  
   .btn-primary {
-    background-color: var(--gear-red);
-    border-color: var(--gear-red);
+    background-color: var(--gear-red) !important;
+    border-color: var(--gear-red) !important;
+    color: white !important;
   }
   
   .btn-primary:hover {
-    background-color: var(--gear-red-dark);
-    border-color: var(--gear-red-dark);
+    background-color: var(--gear-red-dark) !important;
+    border-color: var(--gear-red-dark) !important;
   }
   
-  /* Navigation active state */
+  /* Navigation styling */
+  .nav-list {
+    background-color: transparent !important;
+  }
+  
+  .nav-list-item {
+    color: var(--gear-text-muted) !important;
+  }
+  
+  .nav-list-link {
+    color: var(--gear-text-muted) !important;
+  }
+  
+  .nav-list-link:hover {
+    background-color: rgba(239, 68, 68, 0.1) !important;
+    color: var(--gear-text) !important;
+  }
+  
   .nav-list-link.active {
-    background-image: linear-gradient(90deg, rgba(239, 68, 68, 0.1) 0%, transparent 100%);
+    background-image: linear-gradient(90deg, rgba(239, 68, 68, 0.2) 0%, transparent 100%);
     border-left: 3px solid var(--gear-red);
+    color: var(--gear-red) !important;
   }
   
-  /* Site header border */
-  .site-header {
-    border-bottom: 2px solid var(--gear-red);
+  /* Dark code blocks */
+  .main-content pre {
+    background-color: var(--gear-bg-secondary) !important;
+    border: 1px solid var(--gear-border) !important;
   }
   
-  /* Code blocks */
   .main-content code {
-    background-color: rgba(239, 68, 68, 0.1);
-    color: var(--gear-red-dark);
+    background-color: rgba(239, 68, 68, 0.1) !important;
+    color: var(--gear-red-light) !important;
   }
   
-  /* Tables */
+  /* Dark tables */
+  .main-content table {
+    background-color: var(--gear-bg-secondary) !important;
+    color: var(--gear-text) !important;
+  }
+  
   .main-content table thead th {
-    background-color: rgba(239, 68, 68, 0.1);
-    border-bottom: 2px solid var(--gear-red);
+    background-color: rgba(239, 68, 68, 0.1) !important;
+    border-bottom: 2px solid var(--gear-red) !important;
+    color: var(--gear-red) !important;
   }
   
-  /* Blockquotes */
+  .main-content tbody tr {
+    border-bottom: 1px solid var(--gear-border) !important;
+  }
+  
+  /* Dark blockquotes */
   .main-content blockquote {
-    border-left: 4px solid var(--gear-red);
+    border-left: 4px solid var(--gear-red) !important;
+    background-color: var(--gear-bg-secondary) !important;
+    color: var(--gear-text) !important;
+  }
+  
+  /* Search bar (if enabled) */
+  .search-input {
+    background-color: var(--gear-bg-secondary) !important;
+    border: 1px solid var(--gear-border) !important;
+    color: var(--gear-text) !important;
+  }
+  
+  .search-input:focus {
+    border-color: var(--gear-red) !important;
+  }
+  
+  /* Footer */
+  .site-footer {
+    background-color: var(--gear-bg-primary) !important;
+    border-top: 1px solid var(--gear-border) !important;
+    color: var(--gear-text-muted) !important;
+  }
+  
+  /* Labels and tags */
+  .label {
+    background-color: var(--gear-bg-tertiary) !important;
+    color: var(--gear-text) !important;
+  }
+  
+  .label-red {
+    background-color: var(--gear-red) !important;
+    color: white !important;
   }
 </style>
