@@ -134,6 +134,7 @@ _________________________________________________
 | **AP Subject:** | | **Score** |
 | **CLEP Subject** | | **Score** |
 | **College Placement Exam Name** | **Date(s)** | **Subject/Score** |
+{: .dark-table}
 
 **Test Prep Reality Check:** If your scores aren't where you want them, you can usually retake these tests. But don't stress too much - test scores are just one part of your application.
 
@@ -151,6 +152,7 @@ _________________________________________________
 | | | | | |
 | | | | | |
 | | | | | |
+{: .dark-table}
 
 **Don't have a lot of activities?** That's okay! Quality over quantity. Colleges would rather see you committed to a few things than scattered across many.
 
@@ -164,6 +166,7 @@ _________________________________________________
 | | | |
 | | | |
 | | | |
+{: .dark-table}
 
 ---
 
@@ -174,6 +177,7 @@ _________________________________________________
 | | | | | | |
 | | | | | | |
 | | | | | | |
+{: .dark-table}
 
 **Remember:** Community service isn't just about the hours. Think about what you learned or how you grew from the experience.
 
