@@ -718,15 +718,15 @@ button:focus, input:focus, a:focus {
   display: none !important;
 }
 
-/* Header title where search was */
-.site-header .header-title {
+/* Header title using CSS pseudo-element - no HTML needed */
+.site-header .aux-nav::before {
+  content: "GEAR UP Launch Guide" !important;
   color: #ef4444 !important;
   font-size: 1.25rem !important;
   font-weight: 600 !important;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) !important;
-  flex: 1 !important;
-  text-align: center !important;
-  margin: 0 20px !important;
+  margin-right: 20px !important;
+  white-space: nowrap !important;
 }
 
 /* Navigation buttons */
