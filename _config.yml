@@ -12,7 +12,7 @@ plugins:
   - jekyll-seo-tag
 
 # Just the Docs configuration
-color_scheme: dark
+color_scheme: gear-up
 search_enabled: true
 search:
   heading_level: 2
