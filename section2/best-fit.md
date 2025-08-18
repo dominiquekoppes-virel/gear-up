@@ -117,6 +117,7 @@ _________________________________________________
 | **Other:** _________ | | | | |
 | **Other:** _________ | | | | |
 | **Other:** _________ | | | | |
+{: .dark-table}
 
 **Instructions:** Rate each school from 1-5 (1 = poor fit, 5 = excellent fit) or write notes about how each school meets your needs.
 
