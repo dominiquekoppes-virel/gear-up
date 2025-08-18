@@ -102,12 +102,13 @@ permalink: /section1/university/
 - Can I work on campus?
 
 ### Keep Track:
+
 | School | Total Cost | Aid Offered | What I Pay |
 |---------|------------|-------------|------------|
 | _________________ | $_______ | $_______ | $_______ |
 | _________________ | $_______ | $_______ | $_______ |
 | _________________ | $_______ | $_______ | $_______ |
-
+{: .dark-table}
 ---
 
 ## When You're Feeling Overwhelmed
