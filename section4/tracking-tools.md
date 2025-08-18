@@ -29,6 +29,7 @@ Applying for scholarships and managing your activities requires organization. Th
 | | | | | | | | | |
 | | | | | | | | | |
 | | | | | | | | | |
+{: .dark-table}
 
 ### Status Codes:
 - **R** = Researching
@@ -63,6 +64,7 @@ Applying for scholarships and managing your activities requires organization. Th
 | | | | | | |
 | | | | | | |
 | | | | | | |
+{: .dark-table}
 
 ### Tips for Community Service Tracking:
 - **Record service immediately** - Don't wait and try to remember later
@@ -84,6 +86,7 @@ Applying for scholarships and managing your activities requires organization. Th
 | | | | |
 | | | | |
 | | | | |
+{: .dark-table}
 
 ### Extracurricular Activities
 | **Activity** | **Role/Position** | **Years Involved** | **Time Commitment** | **Key Accomplishments** |
@@ -92,6 +95,7 @@ Applying for scholarships and managing your activities requires organization. Th
 | | | | | |
 | | | | | |
 | | | | | |
+{: .dark-table}
 
 ### Awards and Honors
 | **Award** | **Date Received** | **Reason/Criteria** | **Presented By** |
@@ -99,6 +103,7 @@ Applying for scholarships and managing your activities requires organization. Th
 | | | | |
 | | | | |
 | | | | |
+{: .dark-table}
 
 ### Work Experience
 | **Employer** | **Position** | **Dates** | **Hours/Week** | **Key Responsibilities** | **Skills Developed** |
@@ -106,6 +111,7 @@ Applying for scholarships and managing your activities requires organization. Th
 | | | | | | |
 | | | | | | |
 | | | | | | |
+{: .dark-table}
 
 ---
 
@@ -120,6 +126,7 @@ Applying for scholarships and managing your activities requires organization. Th
 | **October** | | |
 | **November** | | |
 | **December** | | |
+{: .dark-table}
 
 ### Spring Deadlines (January - May)
 | **Month** | **Scholarships Due** | **Prep Needed** |
@@ -129,6 +136,7 @@ Applying for scholarships and managing your activities requires organization. Th
 | **March** | | |
 | **April** | | |
 | **May** | | |
+{: .dark-table}
 
 ---
 
@@ -144,6 +152,7 @@ Applying for scholarships and managing your activities requires organization. Th
 | Career goals | | | | |
 | Community service | | | | |
 | Personal background | | | | |
+{: .dark-table}
 
 ### Recommendation Letters
 | **Recommender** | **Relationship** | **Contact Info** | **Last Used** | **Available Again** |
@@ -151,6 +160,7 @@ Applying for scholarships and managing your activities requires organization. Th
 | | | | | |
 | | | | | |
 | | | | | |
+{: .dark-table}
 
 ### Standard Documents
 | **Document** | **Last Updated** | **File Location** | **Notes** |
@@ -159,6 +169,7 @@ Applying for scholarships and managing your activities requires organization. Th
 | Transcript (unofficial) | | | |
 | Activity list | | | |
 | Awards list | | | |
+{: .dark-table}
 
 ---
 
@@ -172,6 +183,7 @@ Applying for scholarships and managing your activities requires organization. Th
 | | | | | |
 | | | | | |
 | | | | | |
+{: .dark-table}
 
 **Total Scholarship Money Won:** $______________
 
@@ -184,6 +196,7 @@ Applying for scholarships and managing your activities requires organization. Th
 | Personal Expenses | | | |
 | Transportation | | | |
 | **TOTAL** | | | |
+{: .dark-table}
 
 ---
 
