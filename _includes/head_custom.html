@@ -8,6 +8,9 @@
   background: #0a0a0a !important;
   border-bottom: 3px solid #ef4444 !important;
   box-shadow: 0 3px 20px rgba(239, 68, 68, 0.6) !important;
+  width: 100vw !important;
+  left: 0 !important;
+  right: 0 !important;
 }
 
 /* Ensure the header title is properly styled and centered */
@@ -62,6 +65,19 @@
   text-align: center !important;
   width: 100% !important;
   margin: 0 !important;
+}
+
+/* Force sidebar to be visible */
+.side-bar,
+.navigation,
+body > .side-bar,
+.page-wrap > .side-bar {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  position: relative !important;
+  width: auto !important;
+  min-width: 264px !important;
 }
 
 /* Mobile responsive adjustments */
