@@ -143,6 +143,7 @@ There are six military branches, three types of service commitment, and multiple
 | **Marines** | Smallest | Elite combat | Intense/frequent | Challenging |
 | **Coast Guard** | Small | Homeland security | Mostly domestic | Good |
 | **Space Force** | Newest | Space operations | Limited deployment | Unknown |
+{: .dark-table}
 
 ---
 
