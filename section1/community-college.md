@@ -102,11 +102,11 @@ permalink: /section1/community-college/
 
 ### Keep Track:
 
-{: .dark-table}
 | School | Tuition/Year | Books/Supplies | Transportation | Total |
 |--------|--------------|----------------|----------------|-------|
 | _________________ | $_______ | $_______ | $_______ | $_______ |
 | _________________ | $_______ | $_______ | $_______ | $_______ |
+{: .dark-table}
 
 ---
 
