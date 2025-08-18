@@ -1,0 +1,64 @@
+// GEAR UP Custom Color Scheme for Just the Docs
+// Place this file in _sass/color_schemes/gear-up.scss
+
+// Base colors
+$body-background-color: #0a0a0a;
+$sidebar-color: #1a1a1a;
+$search-background-color: #1a1a1a;
+$table-background-color: #1a1a1a;
+$code-background-color: #1a1a1a;
+
+// Text colors
+$body-text-color: #e2e8f0;
+$body-heading-color: #ef4444;
+$search-result-preview-color: #94a3b8;
+$nav-child-link-color: #94a3b8;
+$link-color: #ef4444;
+$btn-primary-color: #ef4444;
+$base-button-color: #1a1a1a;
+
+// Border colors
+$border-color: #333333;
+$search-input-border-color: #333333;
+$search-input-focus-border-color: #ef4444;
+
+// Additional custom colors
+$red-000: #fef2f2;
+$red-100: #fee2e2;
+$red-200: #fecaca;
+$red-300: #fca5a5;
+$red-400: #f87171;
+$red-500: #ef4444;
+$red-600: #dc2626;
+$red-700: #b91c1c;
+$red-800: #991b1b;
+$red-900: #7f1d1d;
+
+// Override grays for dark theme
+$grey-dk-000: #f8f9fa;
+$grey-dk-100: #e9ecef;
+$grey-dk-200: #dee2e6;
+$grey-dk-250: #adb5bd;
+$grey-dk-300: #6c757d;
+$grey-lt-000: #0a0a0a;
+$grey-lt-100: #1a1a1a;
+$grey-lt-200: #2a2a2a;
+$grey-lt-300: #3a3a3a;
+
+// Component colors
+$feedback-color: darken($red-500, 3%);
+
+// Typography
+$body-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Inter", Helvetica, Arial, sans-serif;
+$mono-font-family: "SFMono-Regular", Menlo, Consolas, Monospace;
+
+// Layout
+$nav-width: 264px;
+$nav-width-md: 248px;
+$nav-list-item-height: 3rem;
+$nav-list-item-height-sm: 2rem;
+
+// Specific overrides
+$search-active-color: $red-500;
+$search-result-title-color: $grey-dk-000;
+$feedback-link-color: $red-500;
