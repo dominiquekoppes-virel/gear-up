@@ -1,2 +1,15 @@
 <!-- Custom search JavaScript -->
 <script src="{{ '/assets/js/just-the-docs.js' | relative_url }}"></script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Find the header and add the title
+  const header = document.querySelector('.site-header .aux-nav');
+  if (header) {
+    const title = document.createElement('div');
+    title.className = 'header-title';
+    title.textContent = 'GEAR UP Launch Guide';
+    header.parentNode.insertBefore(title, header);
+  }
+});
+</script>
