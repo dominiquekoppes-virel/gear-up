@@ -21,7 +21,8 @@ $border-light: rgba(255, 255, 255, 0.1);
 // BASE STYLES
 // ============================================================================
 body {
-  background: linear-gradient(135deg, $bg-primary 0%, $bg-secondary 100%) !important;
+  background: $bg-primary !important;
+  background-color: $bg-primary !important;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif !important;
   color: $text-secondary !important;
   min-height: 100vh !important;
@@ -30,11 +31,20 @@ body {
 // ============================================================================
 // HEADER STYLES - BLACK HEADER, NO SEARCH
 // ============================================================================
-.site-header {
+.site-header,
+header.site-header,
+.page-header,
+header {
   background: $bg-primary !important;
+  background-color: $bg-primary !important;
   border-bottom: 1px solid $border-color !important;
   color: $text-primary !important;
   padding: 1rem 0 !important;
+  width: 100% !important;
+  
+  * {
+    background-color: transparent !important;
+  }
   
   .main-content-wrap {
     display: flex !important;
@@ -46,14 +56,52 @@ body {
     border-radius: 0 !important;
     box-shadow: none !important;
     border: none !important;
+    backdrop-filter: none !important;
   }
 }
 
-// Hide search completely
-.search,
-.search-input,
-.search-button {
-  display: none !important;
+// Force all possible header elements to be black
+.site-header *,
+header.site-header *,
+.page-header *,
+header * {
+  background-color: transparent !important;
+}
+
+// Target the specific header wrapper that might be causing issues
+.page-wrap > .site-header,
+body > .site-header,
+#site-header {
+  background: $bg-primary !important;
+  background-color: $bg-primary !important;
+}
+
+// ============================================================================
+// FORCE HEADER BLACK - NUCLEAR OPTION
+// ============================================================================
+// Override any possible header elements
+[class*="header"],
+[id*="header"],
+.site-header,
+header,
+.page-header,
+.main-header,
+.top-header {
+  background: $bg-primary !important;
+  background-color: $bg-primary !important;
+  background-image: none !important;
+}
+
+// Also override any wrapper elements that might contain the header
+.page-wrap,
+.site-wrap,
+.main-wrap {
+  > * {
+    &[class*="header"] {
+      background: $bg-primary !important;
+      background-color: $bg-primary !important;
+    }
+  }
 }
 
 // ============================================================================
