@@ -951,4 +951,262 @@ html, body, .page-wrap, .site-header, .main-header { overflow: visible !importan
   pointer-events: none !important;
 }
 
+// ============================================================================
+// SEARCH RESULTS FIX - FORCE VISIBILITY AND PROPER POSITIONING
+// ============================================================================
 
+// First, ensure the search input and container are properly set up
+.site-header .search,
+.search-container,
+.search-wrapper {
+  position: relative !important;
+  z-index: 3500 !important;
+}
+
+.site-header .search-input,
+.search-input {
+  position: relative !important;
+  z-index: 3501 !important;
+  background: rgba(255, 255, 255, 0.1) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  color: white !important;
+  padding: 8px 16px !important;
+  border-radius: 6px !important;
+  
+  &::placeholder {
+    color: rgba(255, 255, 255, 0.7) !important;
+  }
+  
+  &:focus {
+    background: rgba(255, 255, 255, 0.15) !important;
+    border-color: #ef4444 !important;
+    box-shadow: 0 0 0 2px rgba(239, 68, 68, 0.3) !important;
+    outline: none !important;
+  }
+}
+
+// ============================================================================
+// COMPREHENSIVE SEARCH RESULTS TARGETING
+// ============================================================================
+
+// Target ALL possible search result containers with maximum specificity
+.search-results,
+.search-results-container,
+.search-dropdown,
+.search-modal,
+.search-panel,
+.search-menu,
+.autocomplete-results,
+.autocomplete-panel,
+.DocSearch-Container,
+.DocSearch-Modal,
+.lunr-search-results,
+.search-result-container,
+.search-suggestions,
+ul.search-results,
+div.search-results,
+.js-search-results,
+.search-output,
+.search-list,
+#search-results,
+[id*="search-results"],
+[class*="search-results"],
+[class*="search-dropdown"],
+.site-header .search .search-results,
+.site-header .search-results,
+.navigation .search-results {
+  
+  // FORCE VISIBILITY - Override any hidden/display:none rules
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  pointer-events: auto !important;
+  
+  // Remove any transforms that might hide the element
+  transform: none !important;
+  
+  // Position it properly
+  position: absolute !important;
+  top: calc(100% + 4px) !important;
+  left: 0 !important;
+  right: 0 !important;
+  min-width: 300px !important;
+  max-width: 500px !important;
+  max-height: 400px !important;
+  overflow-y: auto !important;
+  
+  // High z-index to appear above everything
+  z-index: 9999 !important;
+  
+  // Styling to match your theme
+  background: rgba(26, 26, 26, 0.98) !important;
+  border: 1px solid rgba(239, 68, 68, 0.4) !important;
+  border-radius: 8px !important;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.7), 0 0 0 1px rgba(239, 68, 68, 0.2) !important;
+  backdrop-filter: blur(10px) !important;
+  
+  // Ensure content is visible
+  color: #f1f5f9 !important;
+  
+  // Add some padding if it doesn't have any
+  padding: 8px 0 !important;
+}
+
+// Force visibility even when libraries try to hide with inline styles
+.search-results[style*="display: none"],
+.search-dropdown[style*="display: none"],
+.search-panel[style*="display: none"],
+.autocomplete-results[style*="display: none"] {
+  display: block !important;
+}
+
+.search-results[style*="visibility: hidden"],
+.search-dropdown[style*="visibility: hidden"],
+.search-panel[style*="visibility: hidden"] {
+  visibility: visible !important;
+}
+
+.search-results[style*="opacity: 0"],
+.search-dropdown[style*="opacity: 0"],
+.search-panel[style*="opacity: 0"] {
+  opacity: 1 !important;
+}
+
+// ============================================================================
+// SEARCH RESULT ITEMS STYLING
+// ============================================================================
+
+// Style individual search result items
+.search-results li,
+.search-results a,
+.search-result,
+.search-result-item,
+.autocomplete-item,
+.search-suggestion,
+.lunr-search-result,
+.search-results > *,
+.search-dropdown > *,
+.search-panel > * {
+  display: block !important;
+  padding: 12px 16px !important;
+  color: #f1f5f9 !important;
+  text-decoration: none !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+  transition: all 0.2s ease !important;
+  
+  &:hover,
+  &:focus,
+  &.active,
+  &[aria-selected="true"] {
+    background: rgba(239, 68, 68, 0.2) !important;
+    color: white !important;
+    cursor: pointer !important;
+  }
+  
+  &:last-child {
+    border-bottom: none !important;
+  }
+}
+
+// Make sure text content is visible
+.search-results * {
+  color: inherit !important;
+}
+
+// ============================================================================
+// SPECIFIC LIBRARY OVERRIDES
+// ============================================================================
+
+// Just the Docs specific
+.site-header .search {
+  .search-input:focus + .search-results,
+  .search-input:focus ~ .search-results,
+  .search-results:not(:empty) {
+    display: block !important;
+  }
+}
+
+// Lunr.js specific
+.lunr-search-results {
+  .lunr-search-result {
+    margin-bottom: 8px !important;
+    
+    a {
+      font-weight: 500 !important;
+      
+      &:hover {
+        text-decoration: underline !important;
+      }
+    }
+  }
+}
+
+// DocSearch specific (if using Algolia)
+.DocSearch-Container {
+  position: fixed !important;
+  inset: 0 !important;
+  z-index: 9999 !important;
+  
+  .DocSearch-Modal {
+    position: relative !important;
+    top: 10vh !important;
+    margin: 0 auto !important;
+    max-width: 600px !important;
+  }
+}
+
+// ============================================================================
+// DEBUGGING - MAKE SEARCH RESULTS ALWAYS VISIBLE (REMOVE AFTER TESTING)
+// ============================================================================
+
+// Uncomment these rules temporarily to see if results container exists
+/*
+.search-results,
+.search-dropdown,
+.search-panel,
+[class*="search-results"] {
+  display: block !important;
+  position: absolute !important;
+  top: 100% !important;
+  left: 0 !important;
+  right: 0 !important;
+  background: red !important;
+  color: white !important;
+  padding: 20px !important;
+  z-index: 9999 !important;
+  content: "SEARCH RESULTS CONTAINER FOUND!" !important;
+}
+*/
+
+// ============================================================================
+// JAVASCRIPT TRIGGER HELPERS
+// ============================================================================
+
+// These styles help ensure JavaScript-driven search results appear
+.search-active .search-results,
+.search-focused .search-results,
+.has-search-results .search-results,
+.search-results.is-visible,
+.search-results.show,
+.search-results.open {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+// ============================================================================
+// FALLBACK: GLOBAL SEARCH RESULTS POSITIONING
+// ============================================================================
+
+// If search results are inserted outside the header, position them globally
+body > .search-results,
+body > .search-dropdown,
+body > .search-panel,
+html > .search-results {
+  position: fixed !important;
+  top: 80px !important; // Adjust based on your header height
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  width: min(500px, 90vw) !important;
+  z-index: 9999 !important;
+}
