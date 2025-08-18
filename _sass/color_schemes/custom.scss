@@ -1210,3 +1210,137 @@ html > .search-results {
   width: min(500px, 90vw) !important;
   z-index: 9999 !important;
 }
+
+// ============================================================================
+// SEARCH RESULTS VISIBILITY & STYLING IMPROVEMENTS
+// ============================================================================
+
+// Target the search results dropdown that's already working
+.site-header .search-results,
+.search-results,
+.search-dropdown,
+ul.search-results {
+  // Make it more visible with better contrast
+  background: rgba(10, 10, 10, 0.95) !important; // Dark background
+  border: 2px solid #ef4444 !important; // Red border to match theme
+  border-radius: 8px !important;
+  
+  // Better shadow and positioning
+  box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.8),
+    0 0 0 1px rgba(239, 68, 68, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1) !important;
+  
+  // Ensure it's wide enough and positioned well
+  min-width: 300px !important;
+  max-width: 500px !important;
+  max-height: 400px !important;
+  
+  // Make sure it appears above everything
+  z-index: 9999 !important;
+  
+  // Add some padding if missing
+  padding: 8px 0 !important;
+  
+  // Smooth appearance
+  backdrop-filter: blur(10px) !important;
+}
+
+// Style individual search result items for better visibility
+.search-results li,
+.search-results a,
+.search-result,
+.search-result-item {
+  // High contrast text
+  color: #ffffff !important;
+  background: transparent !important;
+  
+  // Better spacing and typography
+  padding: 12px 16px !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+  
+  // Smooth transitions
+  transition: all 0.2s ease !important;
+  
+  // Remove default link styling
+  text-decoration: none !important;
+  display: block !important;
+  
+  &:hover,
+  &:focus,
+  &.selected,
+  &[aria-selected="true"] {
+    background: rgba(239, 68, 68, 0.3) !important; // Red highlight
+    color: #ffffff !important;
+    cursor: pointer !important;
+    transform: translateX(4px) !important; // Subtle slide effect
+  }
+  
+  &:last-child {
+    border-bottom: none !important;
+  }
+}
+
+// Make search result text content more visible
+.search-results .search-result-title,
+.search-results .search-result-doc,
+.search-results strong,
+.search-results em {
+  color: #ffffff !important;
+  font-weight: 600 !important;
+}
+
+// Highlight matched text in search results
+.search-results mark,
+.search-results .highlight,
+.search-results .search-highlight {
+  background: rgba(239, 68, 68, 0.4) !important;
+  color: #ffffff !important;
+  padding: 2px 4px !important;
+  border-radius: 3px !important;
+}
+
+// Make sure the search input stays styled when active
+.site-header .search-input:focus {
+  background: rgba(255, 255, 255, 0.15) !important;
+  border-color: #ef4444 !important;
+  box-shadow: 0 0 0 2px rgba(239, 68, 68, 0.3) !important;
+  color: white !important;
+}
+
+// Add a subtle glow effect to the dropdown
+.site-header .search-results::before {
+  content: '';
+  position: absolute !important;
+  top: -2px !important;
+  left: -2px !important;
+  right: -2px !important;
+  bottom: -2px !important;
+  background: linear-gradient(45deg, #ef4444, #dc2626, #b91c1c, #ef4444) !important;
+  border-radius: 10px !important;
+  z-index: -1 !important;
+  opacity: 0.5 !important;
+  filter: blur(4px) !important;
+}
+
+// Ensure proper spacing from the search input
+.site-header .search {
+  position: relative !important;
+}
+
+.site-header .search .search-results {
+  position: absolute !important;
+  top: calc(100% + 4px) !important;
+  left: 0 !important;
+  right: 0 !important;
+}
+
+// Make "no results" message visible if it exists
+.search-results .no-results,
+.search-results .search-no-results,
+.search-results .empty-results {
+  color: #a3a3a3 !important;
+  padding: 16px !important;
+  text-align: center !important;
+  font-style: italic !important;
+}
